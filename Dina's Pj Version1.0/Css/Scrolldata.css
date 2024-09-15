@@ -1,0 +1,490 @@
+@keyframes fade-in { from {scale: 1;opacity: 1;}
+       to{scale:0.8; opacity: 0;}
+}
+
+
+
+header{
+    background-color: aquamarine;
+    margin:auto;
+    text-align: center;
+    font-style: inherit;
+    width: 100%;
+    
+    
+} header p{
+    line-height: 3;
+    
+}
+
+section h2{
+    text-align: center;
+    font-style: inherit;
+}
+
+.Dinos{ 
+    display: flex;
+    justify-content: center;
+
+}
+.Dinos p{ 
+    font-family: "Fira Sans", sans-serif ;
+    border-radius: 20px;
+    width:44%;
+    height: 350px;
+    padding: 50px 50px 50px 50px;
+    text-indent:50px;
+    text-align: center;
+    margin: 50px 100px 50px 100px;
+    line-height: 3;
+    background-color: rgb(128, 220, 251);
+    
+    animation-range-start:700px;
+    animation-range-end:500px ;
+    scale: 1;opacity: 1;
+    animation: fade-in linear forwards ;
+    animation-timeline: view(575px);
+
+}
+.Dinos img{ border-radius: 50%;
+    height:450px;
+    border: 2px solid black;
+    margin-right:50px;
+    margin-top: 50px;
+    animation-name: fade-in;
+    scale: 1;opacity: 1;
+    animation-range-start:700px;
+    animation-range-end:500px ;
+    animation: fade-in linear forwards;
+    animation-timeline: view(575px);
+
+}
+.Naykyar{   display:flex;
+            justify-content: center; }               
+
+.Naykyar p{ 
+    border-radius: 20px;
+    width:450px;
+    height: 350px;
+    padding: 50px 50px 50px 50px;
+    text-indent:50px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 2;
+    background-color: #ffb4b0;
+    
+    
+    animation-range-start:700px;
+    animation-range-end:500px ;
+    scale: 1;opacity: 1;
+    animation: fade-in linear forwards ;
+    animation-timeline: view(575px);
+       }
+       
+.Naykyar img{
+        
+        border-radius: 50%;
+        height:450px;
+        border: 2px solid black;
+        margin-right:50px;
+        margin-top: 50px;
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(575px);
+           }
+           
+           .Mura { display:flex;
+                   
+                   justify-content: center;
+
+           }
+           .Mura p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: #D0ADFF;
+            animation-name: fade-in;
+            scale: 1;opacity: 1;
+            animation: fade-in linear forwards ;
+            animation-timeline: view( 500px);
+               }
+               
+           .Mura img{
+            border-radius: 50%;
+        height:400px;
+        border: 2px solid black;
+        margin-left:50px;
+        margin-top: 50px;
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+           }
+           
+           .Rain{
+            justify-content: center;
+            display:flex;
+           }
+           .Rain p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            
+            animation-name: fade-in;
+            scale: 1;opacity: 1;
+            animation: fade-in linear forwards;
+            animation-timeline: view(500px);
+           }
+               
+           .Rain img{
+            border-radius: 50%;
+            height:400px;
+            border: 2px solid black;
+            margin-right:50px;
+            margin-top: 50px;
+            animation-name: fade-in;
+            scale: 1;opacity: 1;
+            animation: fade-in linear forwards;
+            animation-timeline: view(500px);
+        
+        
+           }
+           
+           .Ennara{
+            justify-content: center;
+            display:flex;
+           }
+           .Ennara p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            
+            animation-name: fade-in;
+            scale: 1;opacity: 1;
+            animation: fade-in linear forwards;
+            animation-timeline: view(500px);
+               }
+               
+           .Ennara img{
+            border-radius: 50%;
+            height:400px;
+            border: 2px solid black;
+            margin-left:50px;
+            margin-top: 50px;
+            animation-name: fade-in;
+            scale: 1;opacity: 1;
+            animation: fade-in linear forwards;
+            animation-timeline: view(500px);
+        
+       
+           }
+           
+           .Mercury{
+            justify-content: center;
+            display:flex;
+           }
+           .Mercury p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            animation-name: fade-in;
+            scale: 1;opacity: 1;
+            animation: fade-in linear forwards;
+            animation-timeline: view(500px);
+           
+               }
+               
+           .Mercury img{
+            border-radius: 50%;
+        height:400px;
+        border: 2px solid black;
+        margin-right:50px;
+        margin-top: 50px;
+         
+        
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+           }
+           
+           .UChitMg{
+            justify-content: center;
+            display:flex;
+           }
+           .UChitMg p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            
+            animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+               }
+               .UChitMg img{
+            border-radius: 50%;
+        height:400px;
+        border: 2px solid black;
+        margin-left:50px;
+        margin-top: 50px;
+         
+        
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+           }
+          
+           .Mink{
+            justify-content: center;
+            display:flex;
+           }
+           .Mink p{
+            border-radius:20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            
+            animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+               }
+               
+           .Mink img{
+            border-radius: 50%;
+        height:400px;
+        border: 2px solid black;
+        margin-right:50px;
+        margin-top: 50px;
+         
+        
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+           }
+           
+           .IBanny {
+            justify-content: center;
+            display:flex;
+           }
+           .IBanny p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            
+            animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);}
+              
+           .IBanny img{
+            border-radius: 50%;
+        height:400px;
+        border: 2px solid black;
+        margin-left:50px;
+        margin-top: 50px;
+         
+        
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(400px);
+           }
+           
+           .Gwenn {
+            justify-content: center;
+            display:flex;
+           }
+           .Gwenn p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            
+            animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+               }
+               
+           .Gwenn img{
+            border-radius: 50%;
+        height:400px;
+        border: 2px solid black;
+        margin-right:50px;
+        margin-top: 50px;
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+        
+    
+           }
+           
+           .Mint {
+            justify-content: center;
+            display:flex;
+           }
+           .Mint p{
+            border-radius: 20px;
+            width:450px;
+            height: 350px;
+            padding: 50px 50px 50px 50px;
+            text-indent:50px;
+            text-align: justify;
+            margin-left: 100px;
+            margin-right: 100px;
+            line-height: 2;
+            background-color: rgb(236, 215, 230);
+            
+            animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+               }
+               
+           .Mint img{
+            border-radius: 50%;
+        height:400px;
+        border: 2px solid black;
+        margin-left:50px;
+        margin-top: 50px;
+         
+        
+        animation-name: fade-in;
+        scale: 1;opacity: 1;
+        animation: fade-in linear forwards;
+        animation-timeline: view(500px);
+           }
+           .Aboutus { 
+            display:flex;
+            justify-content: center;
+            background-color: beige;
+           } 
+           .Aboutus img{
+            border-radius: 20px;
+            height:400px;
+            border: 2px solid black;
+            margin-right:50px;
+            margin-top: 50px;
+           }
+           .Aboutusp { 
+             text-align: center;
+             padding: 50px 50px 50px 50px;
+             width:450px;
+             height: 350px;
+             font-family: "Fira Sans", sans-serif ;
+             line-height: 1;
+
+           }
+           .Ourstory { 
+            display:flex;
+            justify-content: center;
+            background-color: beige;
+            
+           } 
+           .Ourstory img{
+            border-radius: 20px;
+            height:400px;
+            border: 2px solid black;
+            margin-right:50px;
+            margin-top: 50px;
+           }
+           .Ourstoryp { 
+             text-align: center;
+             padding: 50px 50px 50px 50px;
+             width:450px;
+             height: 350px;
+             font-family: "Fira Sans", sans-serif ;
+             line-height: 1;
+             overflow: hidden;
+             margin-right: 10px;
+             
+
+           }.Ourgoal { 
+            display:flex;
+            justify-content: center;
+            background-color: beige;
+           } 
+           .Ourgoal img{
+            border-radius: 20px;
+            height:350px;
+            border: 2px solid black;
+            margin-right:50px;
+            margin-top: 50px;
+           }
+           .Ourgoalp { 
+             text-align: center;
+             padding: 50px 50px 50px 50px;
+             width:450px;
+             height: 350px;
+             font-family: "Fira Sans", sans-serif ;
+             line-height: 1;
+             
+             
+
+           }
+           .fontsize_17{
+            font-size: 17px;
+            border: 1px black solid;
+            width: 500px;
+            height: 300px;
+           }
