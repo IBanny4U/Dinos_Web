@@ -95,7 +95,7 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     backdrop-filter: blur(5px);
-    border-radius: 20px;
+    border-radius: 5px;
     margin-bottom: 2px;
     font-size: 21px;
     padding-top: 15px;
@@ -187,17 +187,10 @@
     animation-duration:1.2s ;
     animation-timing-function:ease-in-out ;
     animation-delay:0s ;
+    position: sticky;
+    
     
 
 }
-/*#button_bar:checked~.DEACTIVATED{
-    display: flex;
-}
-.DEACTIVATED{
-    animation-name: slide_out_bar;
-    animation-duration: 1.2s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-}*/
 
 
