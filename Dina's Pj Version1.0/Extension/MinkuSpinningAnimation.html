@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/Dina's Pj Version1.0/Css/Spinning.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="stylerecipe.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="../project photos/food10.jpg" alt="no images"></div>
+            <div class="item" style="--position: 1"><img src="../project photos/food1.jpg" alt="no images"></div>
+            <div class="item" style="--position: 2"><img src="../project photos/food11.2.jpg" alt="no images"></div>
+            <div class="item" style="--position: 3"><img src="../project photos/food11.jpg" alt="no images"></div>
+            <div class="item" style="--position: 4"><img src="../project photos/food13.2.jpg" alt="no images"></div>
+            <div class="item" style="--position: 5"><img src="../project photos/food13.jpg" alt="no images"></div>
+            <div class="item" style="--position: 6"><img src="../project photos/food14.2.jpg" alt="no images"></div>
+            <div class="item" style="--position: 7"><img src="../project photos/food14.jpg" alt="no images"></div>
+            <div class="item" style="--position: 8"><img src="../project photos/food2.jpg" alt="no images"></div>
+            <div class="item" style="--position: 9"><img src="../project photos/food3.jpg" alt="no images"></div>
+            <div class="item" style="--position: 10"><img src="../project photos/food4.jpg" alt="no images"></div>
+        </div>
+        <div class="content">
+            <h1 data-content="Dino Food">
+                Dino food
+            </h1>
+            <div class="author">
+                <h2>Recipes</h2>
+                <p><b>by dino team</b></p>
+                <p>
+                    some recipes from our blog
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+</body>
+</html>

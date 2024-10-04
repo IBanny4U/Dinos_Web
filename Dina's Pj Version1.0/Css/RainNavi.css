@@ -164,8 +164,8 @@
     margin-bottom: 25px;
     font-size: 15px;
     margin-right: 5px;
-    width: 219px;
-    height: 290px;
+    width: 190px;
+    height: 250px;
     text-decoration: none;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
@@ -225,11 +225,8 @@ p{
 }
 
 .sectionRight{
-    margin-top: 70px;
-    margin-bottom: 55px;
-    margin-left:25px;
-    margin-right: 25px;
-    width: 40%;
+
+    width: 100%;
 }
 .catttt{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
