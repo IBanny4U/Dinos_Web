@@ -137,3 +137,41 @@
     padding: 25px;
     line-height: 1.5;
 }
+
+
+/*Reponsive */
+
+@media only screen and (max-width: 380px){
+
+    .aboutus{
+        width: 100%;
+    }
+
+    .ourmission{
+        display: block;
+        
+    }
+    .ourmission-image{
+        width: 100%;
+        margin: 0px;
+
+    }
+    .ourmission-image>img{
+        width: 100%;
+    }
+    .ourmission-p>h2{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .ourmission-p{
+        display: block;
+    }
+    
+    .ourmission-p>img{
+        width: 100%;
+    }
+
+
+}
