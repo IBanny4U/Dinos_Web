@@ -1,7 +1,6 @@
 
 .aboutus{
     width:90%;
-    
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -122,6 +121,7 @@
 /* Member info */
 .Memberinfo{
     width:90%;
+    height:40%;
     justify-content: center;
     text-align: center;
     align-items: center;
