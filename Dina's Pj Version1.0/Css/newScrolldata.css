@@ -1,0 +1,139 @@
+
+.aboutus{
+    width:90%;
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.aboutus h1{
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.aboutus p{
+    font-size: 18px ;
+    margin-bottom: 35px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding: auto;
+    margin-top: 20px;
+
+}
+.ourmission{
+    display:flex;
+    justify-content: space-between;
+}
+.ourmission-image{
+    margin-right: 40px;
+}
+.ourmission-image img{
+    height: auto;
+    width: 300px;
+    border-radius:20px ;
+} 
+
+.ourmission-p h2{
+    font-size: 20px;
+    margin-bottom:20px;
+
+}
+.ourmission-p p{
+    font-size: 18px ;
+    line-height: 2;
+    
+}
+.psize{
+    height: auto;
+    width: 300px;
+    border-radius:20px ;
+
+}
+
+/* slider */
+.slider{
+    height:300px;
+    margin:auto;
+    position:relative;
+    width:90%;
+    display:grid;
+    place-items:center;
+    overflow: hidden;
+   
+}
+.slide-track{
+    display:flex;
+    width: calc(300px * 20);
+    animation : scroll 40s linear infinite;
+}
+
+/* for infinite slide scroll animation, i add keyframe */
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform : translateX(calc(-300px * 10));
+    }
+}
+
+.slide{
+    height:300px;
+    width:300px;
+    display:flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    
+}
+.slide img {
+   
+    width:100%;
+    transition: transform 1s;
+}
+
+.slide img:hover{ 
+    transform: translateZ(20px);
+
+}
+/* shadows in slider */
+.slider::before,
+.slider::after{
+    background:linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0)100%);
+    content: '';
+    height:100%;
+    position: absolute;
+    width:15%;
+    z-index: 2;
+}
+.slider::before{
+    left:0;
+    top:0;
+}
+.slider::after{ 
+    right:0;
+    top:0;
+    transform: rotateZ(180deg);
+
+}
+/* Member info */
+.Memberinfo{
+    width:90%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.Memberinfo h2{
+   
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.Memberinfo p{
+    font-size: 18px ;
+    margin-bottom: 35px;
+    padding: 25px;
+    line-height: 1.5;
+}
