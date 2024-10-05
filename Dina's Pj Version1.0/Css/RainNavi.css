@@ -356,3 +356,16 @@ border: 2px solid red;
 
 }
 /* end */
+
+/*Reponsive*/
+
+@media only screen and (max-width:381px ){
+
+    .imgstext{
+        width: 180px;
+        height: 250px;
+        
+    }
+
+
+}

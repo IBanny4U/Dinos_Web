@@ -56,11 +56,10 @@
 
 .Group4to{
     width: 105px;
-    height: 105px;
+    height: 115px;
     margin: -180px 0px 0px 0px ;
-    border-radius: 100px ;
-    margin-left: 39%;
-    background-color: rgb(8, 8, 8);
+    border-radius: 100%;
+    margin-left: 45%;
     display: block;
     padding-bottom: 10px;
 
@@ -219,5 +218,16 @@
     
 
 }
+/*Reponsive*/
 
 
+
+@media only screen and (max-width:600px){
+
+    .Group4to{
+        margin: -180px 0px 0px 0px ;
+        margin-left: 39%;
+    }
+
+
+}
