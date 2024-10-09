@@ -84,8 +84,9 @@ header{
 
 .navilogo{
     width: 80px;
-    height: 100%;
+    height: 70%;
     border-radius: 100%;
+    align-items: center;
 }
 
 .naviitem{
