@@ -81,6 +81,9 @@ header{
     position: sticky;
     transition: background-color .3s ease-in-out, color .3s ease-in;
 }
+.extraSpace{
+    width: 500px;
+}
 
 .navilogo{
     width: 80px;
@@ -192,4 +195,45 @@ header{
         width: auto;
         height: 100%;
     } */
+}
+
+@media only screen and (max-width:767px){
+
+    header{
+        width: 100%;
+        height: 70px;
+    }
+
+    .extraSpace{
+        width: 0px;
+    }
+    .naviitem{
+        width: 100%;
+    }
+    .naviitem a{
+        font-size:10.5px;
+      
+    }
+    .naviitemSelf{
+        margin-right:5px;
+        padding: 0;
+        
+    }
+    .navibtn1{
+        width: 20px;
+        margin-right: 15px;
+        font-size: 10px;
+    }
+    .navibtn2{
+        width:50px;
+        margin-right: 15px;
+    }
+    .navibtn3{
+        width: 56px;
+    }
+    .navilogo{
+
+        width: 70px;
+        height: 65px;
+    }
 }
