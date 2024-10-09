@@ -1,0 +1,665 @@
+body{
+    width: 100%;
+    margin: 0.5%;
+}
+
+
+/* navigation bar start */
+.navbar {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    background-color: white; 
+    border:3.5px solid rgba(197, 197, 197, 0.512) ; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.logocontain {
+    width: 220px;
+    height: 100%;
+    
+}
+.logo {
+    width: 200px;
+    height: 50px;
+    margin:5% 10px;
+}
+
+.navlist {
+    margin: 0px 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 60%;
+    height: 100%;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(97, 97, 97);
+}
+.tab{
+    width: auto;
+    height: 100%;
+    padding: 25px 15px;
+    box-sizing: border-box;
+}
+.tab:hover{
+    /* background-color:rgb(103, 41, 41); */
+    border: 3px solid #3e251eb1;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 6.5px 12.5px;
+    box-sizing: border-box;
+    font-size: 13px;
+   
+    
+}
+.recentTab{
+     color:  rgba(255, 0, 0, 0.663);  
+    /* rgba(255, 255, 0, 0.444)  */
+    /* width: 100px;
+    height: 100%;
+    padding: 23px 15px;
+    box-sizing: border-box; */
+}
+
+.contact {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 0 45px 20px  0;
+    
+}
+/* .about {
+    font-size: 12px;
+    padding: 0%;
+} */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* navigation bar end */
+
+
+
+/* choice start*/
+.choice{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color:#3e251e;
+    margin-top: 10px;
+    border-radius: 18px 18px 0px 0px;
+}
+.cc{
+
+    width: 350px;
+    height: auto;
+    margin:15px 10px ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color:  #ccada5; */
+    /* background:url(); */
+    border: 3px solid rgba(252, 245, 146, 0.712) ;
+}
+
+.ct{
+    font-size: 40px;
+   /* rgb(252, 245, 146) */
+    color:white;
+    background-color:#3e251e;
+    border: none;
+    margin-left: 19px;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.ch{
+    width: 100%;
+    /* background-color: rgba(255, 255, 255, 0.966); */
+}
+.chtag{
+    display: none;
+    grid-template-columns: auto auto;
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+    margin: 4px 8px;
+    margin-bottom:8px;
+    border: 3px dashed rgb(252, 245, 146,0.712) ;
+    padding: 5px 10px;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.21);
+}
+.chtag a{ 
+    margin-right:30px;
+    margin-top: 5px;
+    
+ }
+.chtag a:hover{
+    color: rgb(252, 245, 146) ;
+}
+#bam:checked~.chtag{
+    display: grid;
+}
+#bam:checked~.ct{
+    /* padding-top: 0px; */
+    padding-bottom: 0px;
+}
+#sha:checked~.chtag{
+    display: grid;
+}
+#sha:checked~.ct{
+    /* padding-top: 0px; */
+    padding-bottom: 0px;
+}
+#rak:checked~.chtag{
+    display: grid;
+}
+#rak:checked~.ct{
+    /* padding-top: 0px; */
+    padding-bottom: 0px;
+}
+
+
+/* choice end */
+
+
+/* recipes start */
+section{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100%;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+.rContainer{
+    width:100%;  
+    /* height: 300px; */
+    margin:10px 10px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.66);
+
+}
+.rPhoto1{
+    min-width: 360px;
+    height: 300px;
+    border-radius: 10px 0 60% 10px;
+    box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
+    margin-right: 8px;
+    object-fit: cover;
+}
+/* .rPhoto2{
+    min-width: 360px;
+    height: 300px;
+    border-radius: 60% 10px 10px 0px;
+    box-shadow: -0px -0px 00px rgba(0, 0, 0, 0.51);
+    margin-left: 8px;
+    object-fit: cover;
+} */
+.rPhoto3{
+    min-width: 360px;
+    height: 300px;
+    border-radius: 0px 10px 10px 60%;
+    box-shadow: -0px 0px 00px rgba(0, 0, 0, 0.51);
+    margin-left: 8px;
+    object-fit: cover;
+}
+/* .rPhoto4{
+    min-width: 360px;
+    height: 300px;
+    border-radius: 10px 60% 0px 10px;
+    box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.51);
+    margin-right: 8px;
+    object-fit: cover;
+} */
+.aside{
+    background-color:white;
+    width: 70%;
+    margin: 8px 10px;
+    /* height: 284px; */
+    border-radius: 10px;
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+h3{
+    margin: 0px 10px;
+    margin-bottom: 15px;
+    color: #3E251E;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+
+    
+}
+p, pre{
+    text-indent: 25px;
+    margin:0px 5px;
+    margin-bottom: 10px;
+    color: #3E251E;
+    font-size: 16px;
+    font-family:"Poppins", sans-serif;;
+   
+}
+label{
+    cursor: pointer;
+    height: 15px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 4px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 2.3px 2.3px 2px grey;
+    padding: 5px 6px;
+    color: #3E251E;
+    border: 0.7px solid rgba(255, 255, 255, 0.981);
+    display: inline;
+}
+.yout{
+    width:58px;
+    height: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.663);
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius:10px;
+    box-shadow: 2.3px 2.3px 2px grey;
+    display: inline-block;
+    margin: 10px 6px;
+}
+.upsign{
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    background-color:#563126d4;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 0px 4px;
+    padding-top: 4px;
+    text-align: center;
+    
+    padding-bottom: 4px;
+    border-radius:4px 4px 4px 4px; 
+    /* box-shadow: 2.3px 2.3px 2px grey; */
+    margin-left: 5px;
+}
+
+/* Responsive */
+@media screen and (max-width:600px) {
+    
+    .choice{
+        height: auto;
+        margin-top: 5px;
+        display:block;
+        /* background-color: #3e251e; */
+        background-color: whitesmoke;
+        border-radius:0px 0px;
+    }
+    .cc{
+        outline:  3px solid#3e251e;
+        background-color:#3e251e;
+        width: auto;
+        margin:15px 10px ;
+        border: none; 
+        border: 3px solid rgba(252, 245, 146, 0.712);
+        }
+    .ct{
+        border-radius: 0px;
+        font-size: 40px;
+        padding: 4px 4px;
+        box-sizing: border-box;
+        background-color:#3e251e;
+        }
+    /* .ctb{ padding-right: 10px;} */
+    /* .cts{ 
+    padding-right: 5px;
+    padding-left: 5px;
+} */
+    .chtag{
+        display: none;
+        height: auto;
+        /* grid-template-columns: auto auto auto; */
+        grid-template-columns: auto auto;
+        font-size: 13px;
+        padding: 7px 9px;     
+        border: 3px dashed rgb(252, 245, 146,0.712);
+        margin-bottom: 8px;
+        background-color: rgba(0, 0, 0, 0.21);
+    }
+    .chtag a{
+        margin: 5px 0px;
+    }
+    
+
+    section{
+        display: block;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .rContainer{
+        width:96%;  
+        margin:10px 10px;
+        background-color:rgb(255, 255, 255);
+        display: block;
+        border-radius: 10px 10px ;
+        box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.66);
+    }
+    .rPhoto1{
+        min-width: 94%;
+        height: 300px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
+        margin:2.7% 2.7%;
+        margin-bottom: 0px;
+        object-fit: cover;
+    }
+    .rPhoto3{
+        
+        min-width: 94%;
+        height: 300px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
+        margin:2.7% 2.7%;
+
+        object-fit: cover;
+    }
+    .aside{
+        background-color:rgb(255, 255, 255);
+        width: 92%;
+        margin:0px 3.7%;
+        /* height: 284px; */
+        border-radius: 10px;
+        padding:10px 0px;
+        /* padding-bottom: 10px; */
+        box-sizing: border-box;
+        /* background-color: aqua */
+    }
+    h3{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        color: #3E251E;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+    }
+    p ,pre{
+            text-indent: 25px;
+            margin:0px 0px;
+            color: #3E251E;
+            font-size: 15px;
+            font-family:"Poppins", sans-serif;
+            width: 100%;
+            text-wrap: wrap;
+    }
+    p{
+        /* margin: 0px 15px; */
+    }
+    label{
+        cursor: pointer;
+        height: 15px;
+        width: 75px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        padding: 3px 4px;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0px 10px;
+        margin-left: 0px;
+        font-family:Arial, Helvetica, sans-serif;
+        box-shadow: 2.3px 2.3px 2px grey;
+        padding: 5px 6px;
+        color: #3E251E;
+        border: 0.7px solid rgba(255, 255, 255, 0.981);
+        display: inline;
+    }
+    .yout{
+        width:58px;
+        height: 13px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: rgba(255, 0, 0, 0.663);
+        text-decoration: none;
+        padding: 6px 8px;
+        border-radius:10px;
+        box-shadow: 2.3px 2.3px 2px grey;
+        display: inline-block;
+        margin: 10px 5px;
+        margin-left: 0px;
+    }
+    .upsign{
+        box-sizing: border-box;
+        width: 15px;
+        height: 15px;
+        background-color:#563126d4;
+        color: white;
+        font-weight: 800;
+        font-size: 16px;
+        padding: 0px 4px;
+        padding-top: 4px;
+        text-align: center;
+        padding-bottom: 4px;
+        border-radius:4px 4px 4px 4px; 
+        /* box-shadow: 2.3px 2.3px 2px grey; */
+        margin-left: 5px;
+    }
+
+
+
+
+}
+
+
+
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+#bam,#sha,#rak,#r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8,#r9,#r10,#r11,#r12,#r13,#r14,#r15,#r16,#r17,#r18,#r19,#r20,#r21,#r22,#r23,#r24,#r25,#r26,#r27,#r28,#r29,#r30,
+#r31,#r32,#r33,#r34,#r35,#r36,#r37,#r38,#r39,#r40,#r41,#r42,#r43,#r44,#r45,#r46,#r47,#r48,#r49,#r50,#r51,#r52,#r53,#r54,#r55,#r56,#r57,#r58,#r59,#r60,#r61,
+#r62,#r63,#r64,#r65,#r66,#r67,#r68,#r69,#r70,#r71,#r72,#r73,#r74,#r75,#r76,#r77,#r78,#r79,#r80,#r81,#r82{
+    display: none;
+}
+.recipes{
+    display: none;
+}
+#r1:checked~.recipes,
+#r2:checked~.recipes,
+#r3:checked~.recipes,
+#r4:checked~.recipes,
+#r5:checked~.recipes,
+#r6:checked~.recipes,
+#r7:checked~.recipes,
+#r8:checked~.recipes,
+#r9:checked~.recipes,
+#r10:checked~.recipes,
+#r11:checked~.recipes,
+#r12:checked~.recipes,
+#r13:checked~.recipes,
+#r14:checked~.recipes,
+#r15:checked~.recipes,
+#r16:checked~.recipes,
+#r17:checked~.recipes,
+#r18:checked~.recipes,
+#r19:checked~.recipes,
+#r20:checked~.recipes,
+#r21:checked~.recipes,
+#r22:checked~.recipes,
+#r23:checked~.recipes,
+#r24:checked~.recipes,
+#r25:checked~.recipes,
+#r26:checked~.recipes,
+#r27:checked~.recipes,
+#r28:checked~.recipes,
+#r29:checked~.recipes,
+#r30:checked~.recipes,
+#r31:checked~.recipes,
+#r32:checked~.recipes,
+#r33:checked~.recipes,
+#r34:checked~.recipes,
+#r35:checked~.recipes,
+#r36:checked~.recipes,
+#r37:checked~.recipes,
+#r38:checked~.recipes,
+#r39:checked~.recipes,
+#r40:checked~.recipes,
+#r41:checked~.recipes,
+#r42:checked~.recipes,
+#r43:checked~.recipes,
+#r44:checked~.recipes,
+#r45:checked~.recipes,
+#r46:checked~.recipes,
+#r47:checked~.recipes,
+#r48:checked~.recipes,
+#r49:checked~.recipes,
+#r50:checked~.recipes,
+#r51:checked~.recipes,
+#r52:checked~.recipes,
+#r53:checked~.recipes,
+#r54:checked~.recipes,
+#r55:checked~.recipes,
+#r56:checked~.recipes,
+#r57:checked~.recipes,
+#r58:checked~.recipes,
+#r59:checked~.recipes,
+#r60:checked~.recipes,
+#r61:checked~.recipes,
+#r62:checked~.recipes,
+#r63:checked~.recipes,
+#r64:checked~.recipes,
+#r65:checked~.recipes,
+#r66:checked~.recipes,
+#r67:checked~.recipes,
+#r68:checked~.recipes,
+#r69:checked~.recipes,
+#r70:checked~.recipes,
+#r71:checked~.recipes,
+#r72:checked~.recipes,
+#r73:checked~.recipes,
+#r74:checked~.recipes,
+#r75:checked~.recipes,
+#r76:checked~.recipes,
+#r77:checked~.recipes{
+    display: inline;
+}
+
+#r1:checked~label,
+#r2:checked~label,
+#r3:checked~label,
+#r4:checked~label,
+#r5:checked~label,
+#r6:checked~label,
+#r7:checked~label,
+#r8:checked~label,
+#r9:checked~label,
+#r10:checked~label,
+#r11:checked~label,
+#r12:checked~label,
+#r13:checked~label,
+#r14:checked~label,
+#r15:checked~label,
+#r16:checked~label,
+#r17:checked~label,
+#r18:checked~label,
+#r19:checked~label,
+#r20:checked~label,
+#r21:checked~label,
+#r22:checked~label,
+#r23:checked~label,
+#r24:checked~label,
+#r25:checked~label,
+#r26:checked~label,
+#r27:checked~label,
+#r28:checked~label,
+#r29:checked~label,
+#r30:checked~label,
+#r31:checked~label,
+#r32:checked~label,
+#r33:checked~label,
+#r34:checked~label,
+#r35:checked~label,
+#r36:checked~label,
+#r37:checked~label,
+#r38:checked~label,
+#r39:checked~label,
+#r40:checked~label,
+#r41:checked~label,
+#r42:checked~label,
+#r43:checked~label,
+#r44:checked~label,
+#r45:checked~label,
+#r46:checked~label,
+#r47:checked~label,
+#r48:checked~label,
+#r49:checked~label,
+#r50:checked~label,
+#r51:checked~label,
+#r52:checked~label,
+#r53:checked~label,
+#r54:checked~label,
+#r55:checked~label,
+#r56:checked~label,
+#r57:checked~label,
+#r58:checked~label,
+#r59:checked~label,
+#r60:checked~label,
+#r61:checked~label,
+#r62:checked~label,
+#r63:checked~label,
+#r64:checked~label,
+#r65:checked~label,
+#r66:checked~label,
+#r67:checked~label,
+#r68:checked~label,
+#r69:checked~label,
+#r70:checked~label,
+#r71:checked~label,
+#r72:checked~label,
+#r73:checked~label,
+#r74:checked~label,
+#r75:checked~label,
+#r76:checked~label,
+#r77:checked~label{
+    display: none;
+}
+
+/* recipes end */

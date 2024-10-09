@@ -1,17 +1,25 @@
-
+body{
+    background-image: none;
+}
+.header{
+    background-image: none;
+}
 .aboutus{
-    width:90%;
+    width:100%;
     justify-content: center;
     text-align: center;
     align-items: center;
+    color: rgb(201, 199, 198);
 }
-.aboutus h1{
+.aboutus>h1{
     font-size: 50px;
-    margin-bottom:20px ;
+    margin-bottom: 20px ;
+    color: rgb(201, 199, 198);
 }
 .aboutus p{
     font-size: 18px ;
     margin-bottom: 35px;
+    color: rgb(201, 199, 198);
 }
 
 .container{
@@ -37,11 +45,14 @@
 .ourmission-p h2{
     font-size: 20px;
     margin-bottom:20px;
+    color: rgb(201, 199, 198);
 
 }
 .ourmission-p p{
     font-size: 18px ;
     line-height: 2;
+    color: rgb(201, 199, 198);
+
     
 }
 .psize{
@@ -54,9 +65,9 @@
 /* slider */
 .slider{
     height:300px;
-    margin:auto;
+    margin:0px;
     position:relative;
-    width:90%;
+    width:100%;
     display:grid;
     place-items:center;
     overflow: hidden;
@@ -101,7 +112,7 @@
 /* shadows in slider */
 .slider::before,
 .slider::after{
-    background:linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0)100%);
+    background:linear-gradient(to right, rgb(39, 39, 39) 0%, rgba(255,255,255,0)100%);
     content: '';
     height:100%;
     position: absolute;
@@ -120,11 +131,13 @@
 }
 /* Member info */
 .Memberinfo{
-    width:90%;
+    width:100%;
     height:40%;
     justify-content: center;
     text-align: center;
     align-items: center;
+    color: rgb(201, 199, 198);
+
 }
 .Memberinfo h2{
    
@@ -172,6 +185,34 @@
     .ourmission-p>img{
         width: 100%;
     }
+
+    .Memberinfo{
+        width: 100%;
+    }
+
+}
+/*NayRain Copy*/
+
+
+
+
+
+
+
+@media only screen and (max-width:480px){
+
+    .Bg2{
+
+        margin-top:40rem;
+    }
+    .Bg3{
+        margin-top:40rem;
+    }
+    .Bg4{
+        margin-top: 40rem;
+    }
+
+
 
 
 }
