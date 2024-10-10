@@ -39,7 +39,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 50px;
+   
 
 }
 
@@ -236,7 +236,7 @@ section {
 
 /*img*/
 .row{
-    margin-top: 20px;
+    margin: 0px;
 }
 .imgtext{
 
@@ -245,9 +245,10 @@ section {
 
 
 }
-.img{
-
-    width: 170px;
+.imgtext>img{
+   
+    width:150px;
+    margin: 10%;
 
 }
 
