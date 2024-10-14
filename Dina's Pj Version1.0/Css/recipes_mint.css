@@ -663,3 +663,14 @@ label{
 }
 
 /* recipes end */
+
+/*Media*/
+@media only screen and (max-width: 767px) {
+    .rPhoto1{
+        width: 90%;
+    }
+
+    .rPhoto3{
+        width: 90%;
+    }
+}
