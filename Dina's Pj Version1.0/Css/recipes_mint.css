@@ -418,9 +418,9 @@ label{
             width: 100%;
             text-wrap: wrap;
     }
-    p{
-        /* margin: 0px 15px; */
-    }
+    /* p{
+         margin: 0px 15px; 
+    } */
     label{
         cursor: pointer;
         height: 15px;
