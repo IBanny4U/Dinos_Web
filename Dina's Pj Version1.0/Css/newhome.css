@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     flex-direction: column;
-    background-image: url(../Image/Normal_Bg/Bg1.png),url(../Image/Normal_Bg/Bg2.png);
+    background-image: url(../Image/Normal_Bg/bbg_3.png);
    
     background-size: 100% auto;
    
@@ -123,6 +123,7 @@ header{
 }
 
 .naviitem a{
+    padding-top: 7px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
