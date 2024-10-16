@@ -563,7 +563,6 @@ p{
      display: block;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 20px;
-     text-align: center;
      padding-top: 7px;
      color: white;
 }
@@ -742,6 +741,7 @@ border: 2px solid red;
 
     .PhviewText{
         font-size: 14px;
+        text-align: center;
     }
 
   
@@ -771,21 +771,37 @@ border: 2px solid red;
     .aboutfoodcaption{
         width: 100%;
         height: 300px;
+        padding-top: 20px;
     }
     .aboutfoodcaption>h2{
         font-size: 50px;
+        text-align:center;
+    }
+    .aboutfoodcaption>p{
+        text-align: center;
     }
     .aboutfood>p{
         width: 100%;
+        text-align: center;
 
     }
     .aboutfoodphoto{
-        width: 400px;
-        height: 400px;
+        margin-top: 10px;
+        width: 100%;
+        height: 500px;
         
     }
+    .aboutfoodphotocontainer{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
     .most{
-        margin-top: 150px;
+        margin-top: 50px;
+    }
+    .aboutfoodContainer{
+        height: 800px;
+       
     }
 
 }
