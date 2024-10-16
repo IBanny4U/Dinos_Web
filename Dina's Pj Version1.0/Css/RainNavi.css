@@ -111,7 +111,7 @@
     height: 450px;
     margin: 10px 1.8%;
     /* margin-bottom: 8px; */
-    background-color: #421009;
+    background-color: #421009;opacity: 0.8;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -565,6 +565,7 @@ p{
      font-size: 20px;
      padding-top: 7px;
      color: white;
+     text-align: center;
 }
 /* Edited enddd */
 
@@ -718,14 +719,20 @@ border: 2px solid red;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    background-color: #4d4d4d;
+    background-color: #4d4d4d ;
 
 }
 .aboutfoodphoto{
     width: 100%;
     height: 100%;
 }
-
+.afc{
+    text-align: left;
+    line-height: 2.6;
+    padding-top: 40px;
+    font-weight: 600;
+   font-style: italic;
+ }
 /* end */
 
 /*Reponsive*/
@@ -770,16 +777,15 @@ border: 2px solid red;
     }
     .aboutfoodcaption{
         width: 100%;
-        height: 300px;
+        height: 400px;
         padding-top: 20px;
+        margin-bottom: 20px;
     }
     .aboutfoodcaption>h2{
         font-size: 50px;
         text-align:center;
     }
-    .aboutfoodcaption>p{
-        text-align: center;
-    }
+
     .aboutfood>p{
         width: 100%;
         text-align: center;
@@ -791,9 +797,13 @@ border: 2px solid red;
         height: 500px;
         
     }
+    .aboutfoodphoto>img{
+        width: 100%;
+        height: 100%;
+    }
     .aboutfoodphotocontainer{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 25px;
         margin-bottom: 5px;
     }
     .most{
@@ -806,8 +816,11 @@ border: 2px solid red;
     }
     
     .aboutfoodContainer{
-        height: 800px;
+        height: 900px;
        
+    }
+    .afc{
+        text-align: center;
     }
 
 }
