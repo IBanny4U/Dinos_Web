@@ -283,7 +283,7 @@
     width: 650px;
     height: 550px;
     margin: 73px 0px;
-    background-color: black;
+ 
 }
 
 
@@ -722,6 +722,11 @@ border: 2px solid red;
     background-color: #4d4d4d;
 
 }
+.aboutfoodphoto{
+    width: 100%;
+    height: 100%;
+}
+
 /* end */
 
 /*Reponsive*/
@@ -729,14 +734,58 @@ border: 2px solid red;
 @media only screen and (max-width:767px ){
 
     .imgstext{
-        width: 48.5%;
-        height: 250px;
+        width: 40.9%;
+        height: 155px;
+        margin-bottom: 40px;
         
     }
 
     .PhviewText{
-        font-size: 20px;
+        font-size: 14px;
     }
 
+  
+    /*mint code Reponsive*/
+    .expmm{
+        display: block;
+        height: 500px;
+    }
+    .expmmlogo{
+        display: block;
+        width: 200px;
+        height: 200px;
+    }
+    .expmmtext{
+
+        font-size:20px;
+    }
+    .expmmh1{
+        font-size: 35px;
+    }
+
+    .aboutfood{
+        display: block;
+        margin: 0px;
+        width: 100%;
+    }
+    .aboutfoodcaption{
+        width: 100%;
+        height: 300px;
+    }
+    .aboutfoodcaption>h2{
+        font-size: 50px;
+    }
+    .aboutfood>p{
+        width: 100%;
+
+    }
+    .aboutfoodphoto{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .most{
+        margin-top: 150px;
+    }
 
 }
