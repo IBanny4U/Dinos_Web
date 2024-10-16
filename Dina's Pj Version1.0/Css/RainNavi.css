@@ -228,7 +228,7 @@
    width: 100px;
    height: 100px;
    border-radius: 50%;
-   background-color: antiquewhite;
+  background: url(../Image/icons/icon1.jpg);
    margin: 10px 0px;
    margin-left: 10px;
   }
@@ -723,8 +723,8 @@ border: 2px solid red;
 
 }
 .aboutfoodphoto{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 95%;
 }
 .afc{
     text-align: left;
@@ -798,8 +798,9 @@ border: 2px solid red;
         
     }
     .aboutfoodphoto>img{
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
+        margin-left: 27px;
     }
     .aboutfoodphotocontainer{
         width: 100%;
