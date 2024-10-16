@@ -118,7 +118,6 @@
     border-radius: 20px;
 }
   .expmmlogo{
-    
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -318,16 +317,8 @@
      display: inline-block;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-size: 25px;
-}
-
-.cardc{
-    width: 20%;
-    border-radius: 50%;
-    background-color: yellow;
-    
-}
-
-.dbody a{
+}  
+   .dbody a{
     text-decoration: none;
     color: inherit;
 }*/
