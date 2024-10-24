@@ -191,19 +191,19 @@ section{
     flex-wrap: wrap;
 }
 .rContainer{
-    width:100%;  
+    width:98%;  
     /* height: 300px; */
-    margin:10px 10px;
+    margin:10px 20px;
     background-color:rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
     box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.66);
-
 }
 .rPhoto1{
-    min-width: 360px;
-    height: 300px;
+    max-width: 450px;
+    min-width: 450px;
+    height: 380px;
     border-radius: 10px 0 60% 10px;
     box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
     margin-right: 8px;
@@ -218,8 +218,9 @@ section{
     object-fit: cover;
 } */
 .rPhoto3{
-    min-width: 360px;
-    height: 300px;
+    max-width: 450px;
+    min-width: 450px;
+    height: 380px;
     border-radius: 0px 10px 10px 60%;
     box-shadow: -0px 0px 00px rgba(0, 0, 0, 0.51);
     margin-left: 8px;
@@ -234,9 +235,9 @@ section{
     object-fit: cover;
 } */
 .aside{
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.132);
     width: 70%;
-    margin: 8px 10px;
+    margin: 8px 15px;
     /* height: 284px; */
     border-radius: 10px;
     padding: 10px 15px;
@@ -244,11 +245,11 @@ section{
     box-sizing: border-box;
 }
 h3{
-    margin: 0px 10px;
+    margin: 0px 20px;
     margin-bottom: 15px;
     color: #3E251E;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 53px;
 
     
 }
@@ -263,8 +264,8 @@ p, pre{
 }
 label{
     cursor: pointer;
-    height: 15px;
-    width: 75px;
+    /* height: 100px;
+    width: 105px; */
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     padding: 3px 4px;
@@ -273,21 +274,22 @@ label{
     margin: 0px 5px;
     font-family:Arial, Helvetica, sans-serif;
     box-shadow: 2.3px 2.3px 2px grey;
-    padding: 5px 6px;
+    padding: 8px 6px;
+    padding-bottom: 6px;
     color: #3E251E;
-    border: 0.7px solid rgba(255, 255, 255, 0.981);
+    border: 1px solid rgba(202, 202, 202, 0.721);
     display: inline;
 }
 .yout{
-    width:73px;
-    height: 25px;
+    width:80px;
+    height: 30px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     background-color: rgba(255, 0, 0, 0.663);
     text-decoration: none;
-    padding: 6px 8px;
+    padding: 9px 8px;
     border-radius:10px;
     box-shadow: 2.3px 2.3px 2px grey;
     display: inline-block;
