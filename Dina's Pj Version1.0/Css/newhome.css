@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     flex-direction: column;
-    background-image: url(../Image/Normal_Bg/bbg_3.png);
+    background-image: url(../Image/Normal_Bg/2.png);
    
     background-size: 100% auto;
    
@@ -203,7 +203,7 @@ header{
 @media only screen and (max-width:767px){
 
     body{
-        background: url('../Image/Normal_Bg/bbg_3.png');
+        background: url('../Image/Normal_Bg/2.png');
        background-size: 100%;
        background-repeat: no repeat;
     }

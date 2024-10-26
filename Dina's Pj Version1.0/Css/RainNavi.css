@@ -792,15 +792,16 @@ border: 2px solid red;
 
     }
     .aboutfoodphoto{
-        margin-top: 10px;
+        margin-top: 35%;
         width: 100%;
-        height: 500px;
+        margin-left: 0px;
+        height: 1000px;
         
     }
     .aboutfoodphoto>img{
         width: 90%;
-        height: 90%;
-        margin-left: 27px;
+        height: 30%;
+        margin-left: 20px;
     }
     .aboutfoodphotocontainer{
         width: 100%;
@@ -817,7 +818,7 @@ border: 2px solid red;
     }
     
     .aboutfoodContainer{
-        height: 900px;
+        height: 950px;
        
     }
     .afc{
