@@ -1,9 +1,9 @@
-body{
+/* body{
     width: 100%;
     margin: 0.5%;
 }
 
-
+/* 
 /* navigation bar start */
 .navbar {
     height: 65px;
@@ -94,17 +94,17 @@ a {
     color: inherit;
     text-decoration: none;
 }
-/* navigation bar end */
+/*navigation bar end */
 
 
 
 /* choice start*/
-.choice{
+/* .choice{
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    background-color:#3e251e;
+    background-image: url(../Image/mint/black-wall.jpg);
     margin-top: 10px;
     border-radius: 18px 18px 0px 0px;
 }
@@ -112,40 +112,39 @@ a {
 
     width: 350px;
     height: auto;
-    margin:15px 10px ;
+    margin:25px 15px ;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color:  #ccada5; */
-    /* background:url(); */
-    border: 3px solid rgba(252, 245, 146, 0.712) ;
+    border: 9px ridge #0a0a0955 ;
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-radius: 40px 0px 40px 0px;
 }
 
 .ct{
     font-size: 40px;
-   /* rgb(252, 245, 146) */
-    color:white;
-    background-color:#3e251e;
+    color:rgb(189, 189, 189);
+    background-color: transparent;
     border: none;
     margin-left: 19px;
     box-shadow: none;
     border-radius: 0px;
+
 }
 .ch{
     width: 100%;
-    /* background-color: rgba(255, 255, 255, 0.966); */
 }
 .chtag{
     display: none;
     grid-template-columns: auto auto;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
-    color:white;
+    color:rgb(197, 197, 197);
     margin: 4px 8px;
     margin-bottom:8px;
-    border: 3px dashed rgb(252, 245, 146,0.712) ;
+    margin-right: 0px;
     padding: 5px 10px;
     height: 900px;
-    background-color: rgba(0, 0, 0, 0.21);
 }
 .chtag a{ 
     margin-right:30px;
@@ -153,32 +152,164 @@ a {
     
  }
 .chtag a:hover{
-    color: rgb(252, 245, 146) ;
+    color: rgb(73, 73, 73) ;
 }
+
 #bam:checked~.chtag{
     display: grid;
 }
 #bam:checked~.ct{
-    /* padding-top: 0px; */
     padding-bottom: 0px;
 }
 #sha:checked~.chtag{
     display: grid;
 }
 #sha:checked~.ct{
-    /* padding-top: 0px; */
     padding-bottom: 0px;
 }
 #rak:checked~.chtag{
     display: grid;
 }
 #rak:checked~.ct{
-    /* padding-top: 0px; */
     padding-bottom: 0px;
+} */
+
+
+
+
+
+
+
+
+.choice{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* background-image: url(../Image/mint/black-wall.jpg); */
+    margin-top: 10px;
+    border-radius: 18px 18px 0px 0px;
+}
+.ct{
+    color: #f0e5c7d3;
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.cc{
+    background-image: url(../Image/mint/black-wall.jpg);
+    width: 265px;
+    height: auto;
+    margin-left: 50px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 9px ridge #0a0a0955;
+    padding: 10px 0px;
+    padding-left: 30px;
+    border-radius: 40px 0px 40px 0px;
 }
 
 
+.ch{
+   background-image: url(../Image/mint/black-wall.jpg);
+   width: 76%;
+   height: auto;
+   margin: 25px 50px;
+   padding: 20px;
+   border: 9px ridge #0a0a0955;
+}
+.clickbbb{
+    display: block;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.348);
+    padding: 135px 0px;
+}
+.chtag1,.chtag2,.chtag3{
+    display: none;
+    grid-template-columns: auto auto auto auto auto;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(197, 197, 197);
+    
+}
+.chtag a{ 
+    margin: 20px;
+ }
+ .chtag p{ 
+    display: block;
+    margin-top: 17px;
+    margin-left: 10px;
+    width: 135px;
+    height: 35px;
+    padding: 3px 0px;
+    font-size: 22px;
+    color: white;
+    background-color: #3E251E;
+    border: 2px solid  #3E251E;
+ }
+.chtag a:hover{
+    
+    text-decoration: #8c9657 3px underline;
+   text-underline-offset: 5px;
+   /* #5a372c */
+}
+/* rgba(208, 166, 49, 0.745) */
+
+#bam:checked~.chtag1{
+    display: grid;
+}
+/* #bam:checked~.chtag2{
+    display: none;
+}
+#bam:checked~.chtag3{
+    display: none;
+} */
+#bam:checked~.clickbbb{
+    display:none;
+}
+
+
+
+#sha:checked~.chtag2{
+    display: grid;
+}
+/* #sha:checked~.chtag1{
+    display: none;
+}
+#sha:checked~.chtag3{
+    display: none;
+} */
+#sha:checked~.clickbbb{
+    display: none;
+}
+
+
+
+#rak:checked~.chtag3{
+    display: grid;
+}
+/* #rak:checked~.chtag1{
+    display: none;
+}
+#rak:checked~.chtag2{
+    display: none;
+} */
+#rak:checked~.clickbbb{
+    display: none;
+}
+
 /* choice end */
+
+h1{
+    color: #f0e5c7e7;
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 7px 38px;
+    text-shadow:5px 5px 4px #060704;
+}
 
 
 /* recipes start */
@@ -187,27 +318,30 @@ section{
     justify-content: space-between;
     align-content: flex-start;
     width: 100%;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     flex-wrap: wrap;
 }
 .rContainer{
-    width:100%;  
+    width:98%;  
     /* height: 300px; */
-    margin:10px 10px;
-    background-color:rgb(255, 255, 255);
+    margin:10px 20px;
+    /* background-color:rgb(255, 255, 255); */
+    background-image: url(../Image/mint/black-wall.jpg);
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.66);
-
+    /* box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.66); */
+    box-shadow: 1.5px 1.5px 5px rgb(0, 0, 0);
 }
 .rPhoto1{
-    min-width: 360px;
-    height: 300px;
-    border-radius: 10px 0 60% 10px;
+    max-width: 450px;
+    min-width: 450px;
+    height: 380px;
+    border-radius: 10px 0 50% 10px;
     box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
     margin-right: 8px;
     object-fit: cover;
+    image-rendering:optimizeQuality;
 }
 /* .rPhoto2{
     min-width: 360px;
@@ -218,12 +352,14 @@ section{
     object-fit: cover;
 } */
 .rPhoto3{
-    min-width: 360px;
-    height: 300px;
-    border-radius: 0px 10px 10px 60%;
-    box-shadow: -0px 0px 00px rgba(0, 0, 0, 0.51);
+    max-width: 450px;
+    min-width: 450px;
+    height: 380px;
+    border-radius: 0px 10px 10px 50%;
+    box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
     margin-left: 8px;
     object-fit: cover;
+    image-rendering:optimizeQuality;
 }
 /* .rPhoto4{
     min-width: 360px;
@@ -234,9 +370,9 @@ section{
     object-fit: cover;
 } */
 .aside{
-    background-color:white;
+    /* background-color:rgba(255, 255, 255, 0.132); */
     width: 70%;
-    margin: 8px 10px;
+    margin: 8px 15px;
     /* height: 284px; */
     border-radius: 10px;
     padding: 10px 15px;
@@ -244,64 +380,67 @@ section{
     box-sizing: border-box;
 }
 h3{
-    margin: 0px 10px;
+    margin: 5px 20px;
     margin-bottom: 15px;
-    color: #3E251E;
+    /* color: #3E251E; */
+    color: #f0e5c7;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-
-    
+    font-size: 56px;
 }
-p, pre{
+p, pre,b{
     text-indent: 25px;
     margin:0px 5px;
     margin-bottom: 10px;
-    color: #3E251E;
+    /* color: #3E251E; */
+    color: #f0e5c7;
     font-size: 16px;
     font-family:"Poppins", sans-serif;;
    
 }
 label{
     cursor: pointer;
-    height: 15px;
-    width: 75px;
+    /* height: 100px;
+    width: 105px; */
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: #8c9657;
     padding: 3px 4px;
     font-size: 12px;
     font-weight: 600;
     margin: 0px 5px;
     font-family:Arial, Helvetica, sans-serif;
-    box-shadow: 2.3px 2.3px 2px grey;
-    padding: 5px 6px;
-    color: #3E251E;
-    border: 0.7px solid rgba(255, 255, 255, 0.981);
+    /* box-shadow: 2.3px 2.3px 2px grey; */
+    padding: 8px 6px;
+    padding-bottom: 6px;
+    color: black;
+    /* border: 1px solid rgba(202, 202, 202, 0.721); */
+
     display: inline;
 }
 .yout{
-    width:73px;
-    height: 25px;
-    color: white;
+    width:75px;
+    color: rgba(245, 245, 245, 0.723);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 600;
-    background-color: rgba(255, 0, 0, 0.663);
+    /* background-color: rgba(255, 0, 0, 0.663); */
+    background-color: #bf1616;
     text-decoration: none;
-    padding: 6px 8px;
+    padding: 9px 7px;
+    padding-bottom: 1%;
     border-radius:10px;
-    box-shadow: 2.3px 2.3px 2px grey;
+    /* box-shadow: 2.3px 2.3px 2px grey; */
     display: inline-block;
     margin: 10px 6px;
 }
 .upsign{
     box-sizing: border-box;
-    width: 15px;
+    width: 5px;
     height: 15px;
     background-color:#563126d4;
     color: white;
     font-weight: 800;
-    font-size: 16px;
-    padding: 0px 4px;
+    font-size: 19px;
+    padding: 0px 8px;
     padding-top: 4px;
     text-align: center;
     
