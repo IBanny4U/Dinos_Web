@@ -361,6 +361,7 @@ section{
     object-fit: cover;
     image-rendering:optimizeQuality;
 }
+
 /* .rPhoto4{
     min-width: 360px;
     height: 300px;
@@ -386,6 +387,9 @@ h3{
     color: #f0e5c7;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 56px;
+}
+h2{
+    color: #f0e5c7;
 }
 p, pre,b{
     text-indent: 25px;
