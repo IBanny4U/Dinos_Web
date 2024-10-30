@@ -99,87 +99,6 @@ a {
 
 
 /* choice start*/
-/* .choice{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    background-image: url(../Image/mint/black-wall.jpg);
-    margin-top: 10px;
-    border-radius: 18px 18px 0px 0px;
-}
-.cc{
-
-    width: 350px;
-    height: auto;
-    margin:25px 15px ;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 9px ridge #0a0a0955 ;
-    padding: 10px 0px;
-    padding-left: 10px;
-    border-radius: 40px 0px 40px 0px;
-}
-
-.ct{
-    font-size: 40px;
-    color:rgb(189, 189, 189);
-    background-color: transparent;
-    border: none;
-    margin-left: 19px;
-    box-shadow: none;
-    border-radius: 0px;
-
-}
-.ch{
-    width: 100%;
-}
-.chtag{
-    display: none;
-    grid-template-columns: auto auto;
-    font-size: 15px;
-    font-weight: 600;
-    color:rgb(197, 197, 197);
-    margin: 4px 8px;
-    margin-bottom:8px;
-    margin-right: 0px;
-    padding: 5px 10px;
-    height: 900px;
-}
-.chtag a{ 
-    margin-right:30px;
-    margin-top: 5px;
-    
- }
-.chtag a:hover{
-    color: rgb(73, 73, 73) ;
-}
-
-#bam:checked~.chtag{
-    display: grid;
-}
-#bam:checked~.ct{
-    padding-bottom: 0px;
-}
-#sha:checked~.chtag{
-    display: grid;
-}
-#sha:checked~.ct{
-    padding-bottom: 0px;
-}
-#rak:checked~.chtag{
-    display: grid;
-}
-#rak:checked~.ct{
-    padding-bottom: 0px;
-} */
-
-
-
-
-
-
-
 
 .choice{
     width: 100%;
@@ -310,8 +229,6 @@ h1{
     margin: 7px 38px;
     text-shadow:5px 5px 4px #060704;
 }
-
-
 /* recipes start */
 section{
     display: flex;
@@ -361,6 +278,7 @@ section{
     object-fit: cover;
     image-rendering:optimizeQuality;
 }
+
 /* .rPhoto4{
     min-width: 360px;
     height: 300px;
@@ -386,6 +304,9 @@ h3{
     color: #f0e5c7;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 56px;
+}
+h2{
+    color: #f0e5c7;
 }
 p, pre,b{
     text-indent: 25px;
@@ -454,161 +375,125 @@ label{
 @media screen and (max-width:600px) {
     
     .choice{
-        height: auto;
-        margin-top: 5px;
-        display:block;
-        /* background-color: #3e251e; */
-        background-color: whitesmoke;
-        border-radius:0px 0px;
+        width: 100%;
+        display: block;
+        /* background-image: url(../Image/mint/black-wall.jpg); */
+        margin-top: 10px;
+        border-radius: 18px 18px 0px 0px;
+    }
+    .leftNright{
+        width: 50%;
+        display: flex;
+        justify-content: flex-between;
+        margin-left: 16px;
+        margin-right: 18px;
+        margin-top: 10px;
+    }
+
+    .ct{
+        color: #f0e5c7d3;
+        font-size: 17px;
+        /* background-color: red; */
+        border: none;
+        margin: 0px;
+        box-shadow: none;
+        border-radius: 0px;
     }
     .cc{
-        outline:  3px solid#3e251e;
-        background-color:#3e251e;
-        width: auto;
-        margin:15px 10px ;
-        border: none; 
-        border: 3px solid rgba(252, 245, 146, 0.712);
-        }
-    .ct{
-        border-radius: 0px;
-        font-size: 40px;
-        padding: 4px 4px;
+
+        background-image: url(../Image/mint/black-wall.jpg);
+        width: 105px;
+        height: auto;
         box-sizing: border-box;
-        background-color:#3e251e;
-        }
-    /* .ctb{ padding-right: 10px;} */
-    /* .cts{ 
-    padding-right: 5px;
-    padding-left: 5px;
-} */
+        font-family:Arial, Helvetica, sans-serif;
+        border: 5px ridge #0a0a0955;
+        padding: 8px 0px;
+        padding-left: 9px;
+        border-radius: 10px 10px 10px 10px;
+        margin: 0px;
+    }
+    .ch{
+        background-image: url(../Image/mint/black-wall.jpg);
+        width: 95%;    
+        margin: 15px 10px;
+        padding: 5px 5px;
+     }
     .chtag{
         display: none;
-        height: auto;
-        /* grid-template-columns: auto auto auto; */
-        grid-template-columns: auto auto;
-        font-size: 13px;
-        padding: 7px 9px;     
-        border: 3px dashed rgb(252, 245, 146,0.712);
-        margin-bottom: 8px;
-        background-color: rgba(0, 0, 0, 0.21);
-    }
-    .chtag a{
-        margin: 5px 0px;
-    }
+        grid-template-columns: auto auto ;
+        font-size: 12px;
+}
     
-
     section{
         display: block;
         width: 100%;
-        background-color: whitesmoke;
     }
     .rContainer{
-        width:96%;  
+        width:95%;  
         margin:10px 10px;
-        background-color:rgb(255, 255, 255);
         display: block;
         border-radius: 10px 10px ;
-        box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.66);
     }
     .rPhoto1{
-        min-width: 94%;
+        min-width: 93%;
         height: 300px;
-        border-radius: 10px 10px 10px 10px;
-        box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
-        margin:2.7% 2.7%;
-        margin-bottom: 0px;
-        object-fit: cover;
+        border-radius: 5px 5px 10px 10px;
+        margin:3.5% 2.7%;
+        margin-left: 3.7%;
+        margin-bottom: 0%;
     }
     .rPhoto3{
-        
-        min-width: 94%;
+        min-width: 93%;
         height: 300px;
-        border-radius: 10px 10px 10px 10px;
-        box-shadow: 0px 0px 00px rgba(0, 0, 0, 0.51);
-        margin:2.7% 2.7%;
-
-        object-fit: cover;
+        border-radius: 10px 10px 5px 5px;
+        margin:2.5% 2.7%;
+        margin-left: 3.3%;
+        margin-top: 0%;
     }
     .aside{
-        background-color:rgb(255, 255, 255);
+       
         width: 92%;
         margin:0px 3.7%;
-        /* height: 284px; */
         border-radius: 10px;
-        padding:10px 0px;
-        /* padding-bottom: 10px; */
-        box-sizing: border-box;
-        /* background-color: aqua */
+        padding:25px 17px;
+        box-sizing: border-box;  
     }
     h3{
         margin-top: 0px;
         margin-left: 0px;
-        margin-bottom: 5px;
-        color: #3E251E;
+        margin-bottom: 13px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 32px;
+        font-size: 30px;
+        color: #f0e5c7;
     }
-    p ,pre{
-            text-indent: 25px;
-            margin:0px 0px;
-            color: #3E251E;
-            font-size: 15px;
+    p ,pre,span{
+            text-indent: 0px;
+            font-size: 16px;
             font-family:"Poppins", sans-serif;
             width: 100%;
             text-wrap: wrap;
+            color: #f0e5c7;
     }
-    /* p{
-         margin: 0px 15px; 
-    } */
     label{
-        cursor: pointer;
-        height: 15px;
-        width: 75px;
-        border-radius: 10px;
-        background-color: rgb(255, 255, 255);
-        padding: 3px 4px;
-        font-size: 12px;
-        font-weight: 600;
-        margin: 0px 10px;
-        margin-left: 0px;
         font-family:Arial, Helvetica, sans-serif;
-        box-shadow: 2.3px 2.3px 2px grey;
-        padding: 5px 6px;
-        color: #3E251E;
-        border: 0.7px solid rgba(255, 255, 255, 0.981);
+        padding: 6px 6px;
         display: inline;
+        margin-top: 10px;
+        font-size: 9px;
     }
     .yout{
-        width:58px;
-        height: 13px;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        background-color: rgba(255, 0, 0, 0.663);
-        text-decoration: none;
-        padding: 6px 8px;
-        border-radius:10px;
-        box-shadow: 2.3px 2.3px 2px grey;
-        display: inline-block;
-        margin: 10px 5px;
-        margin-left: 0px;
+        font-size: 9px;
+        margin-top: 10px;
+        padding: 7px 7px;
+        width: 60px;
     }
     .upsign{
-        box-sizing: border-box;
-        width: 15px;
-        height: 15px;
-        background-color:#563126d4;
-        color: white;
-        font-weight: 800;
         font-size: 16px;
-        padding: 0px 4px;
-        padding-top: 4px;
-        text-align: center;
-        padding-bottom: 4px;
-        border-radius:4px 4px 4px 4px; 
-        /* box-shadow: 2.3px 2.3px 2px grey; */
-        margin-left: 5px;
+        padding: 4px 4px;
+        border-radius:4px; 
+        margin-left: 42%;
+        
+        
     }
 
 
@@ -812,8 +697,5 @@ label{
     .rPhoto3{
         width: 90%;
     }
-    .yout{
-        height: 25px;
-        width: 73px;
-    }
+    
 }
