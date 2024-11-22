@@ -119,14 +119,14 @@
     align-items: center;
     justify-content: flex-start;
     padding: 100px 0px;
-    padding-left: 80px;
+    padding-left: 90px;
 }
   .expmmlogo{
     width:600px;
     height: 600px;
     margin-left: 0px;
     margin-bottom: 150px;
-    margin-right: 10px;
+    margin-right: 0px;
     border-radius: 50%;
     object-fit: contain;
 }
@@ -276,7 +276,11 @@
     margin-right: -100px;
     /* background-color: ; */
 }
-
+.aboutfoodphoto{
+    image-rendering: auto;
+    image-resolution: 5000dpi;
+    image-orientation: flip;
+}
 
 
 /* <!-- About Myanmar food END--> */
@@ -386,7 +390,7 @@
     width: 55%;
     margin-right: 0.9%;
     background: url(../Image/mint/R.jfif);
-    background-size:contain;
+    background-size:cover;
 }
 .Kalaw{
     font-size:15px;
