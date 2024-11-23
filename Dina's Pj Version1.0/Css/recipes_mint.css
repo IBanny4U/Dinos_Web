@@ -380,7 +380,10 @@ label{
 
 /* Responsive */
 @media screen and (max-width:600px) {
-    
+    .Rtitle{
+        margin-left: 4%;
+    }
+
     .choice{
         width: 100%;
         display: block;
@@ -389,11 +392,10 @@ label{
         border-radius: 18px 18px 0px 0px;
     }
     .leftNright{
-        width: 50%;
+        width: 96%;
         display: flex;
         justify-content: flex-between;
-        margin-left: 16px;
-        margin-right: 18px;
+        margin-left: 2%;
         margin-top: 10px;
     }
 
@@ -423,7 +425,7 @@ label{
         background-image: url(../Image/mint/black-wall.jpg);
         width: 95%;    
         margin: 15px 10px;
-        padding: 5px 5px;
+        padding: 5px 6px;
      }
     .chtag{
         display: none;
