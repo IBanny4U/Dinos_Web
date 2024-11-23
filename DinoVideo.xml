@@ -8,7 +8,7 @@
       <video:title>Myanmar Traditional Food Background</video:title> <!-- Title of background video -->
       <video:description>Background video for homepage</video:description> <!-- Updated description -->
       <video:content_loc>https://github.com/IBanny4U/Dinos_Web/raw/refs/heads/main/Dina's%20Pj%20Version1.0/Image/Video/background1.mp4</video:content_loc>
-      <video:player_loc>https://dinos-web.onrender.com/</video:player_loc> <!-- Homepage player location -->
+      <video:player_loc>https://github.com/IBanny4U/Dinos_Web/raw/refs/heads/main/Dina's%20Pj%20Version1.0/Image/Video/background1.mp4</video:player_loc> <!-- Homepage player location -->
       <video:duration>900</video:duration> <!-- Adjust duration if necessary -->
       <video:publication_date>2024-11-23</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
