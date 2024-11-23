@@ -2,7 +2,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
   <url>
-    <loc>https://dinos-web.onrender.com/</loc> <!-- Link to homepage or where the video is embedded -->
+    <loc>https://github.com/IBanny4U/Dinos_Web/raw/refs/heads/main/Dina's%20Pj%20Version1.0/Image/Video/background1.mp4</loc> <!-- Link to homepage or where the video is embedded -->
     <video:video>
       <video:thumbnail_loc>https://dinos-web.onrender.com/images/recipe-thumbnail.jpg</video:thumbnail_loc>
       <video:title>Myanmar Traditional Food Background</video:title> <!-- Title of background video -->
