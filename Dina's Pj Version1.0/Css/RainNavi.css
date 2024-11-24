@@ -862,17 +862,18 @@ border: 2px solid red;
 
 
 
-@media screen (max-width:320px ){
-
+@media screen and (max-width:600px ){
+    
     .imgstext{
-        width: 40.9%;
-        height: 155px;
-        margin-bottom: 40px;
+        width: 70.9%;
+        height: 185px;
+        margin: 0px 15%;
+        margin-bottom: 58px;
         
     }
 
     .PhviewText{
-        font-size: 14px;
+        font-size: 17px;
         text-align: center;
     }
 
@@ -903,19 +904,25 @@ border: 2px solid red;
     }
     .aboutfoodcaption{
         width: 100%;
-        height: 400px;
+        height: 430px;
         padding-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .aboutfoodcaption>h2{
-        font-size: 50px;
-        text-align:center;
+        font-size: 63px;
+        margin-left: -19%;
+        text-align: center;
+        margin-bottom: -9%;
     }
 
-    .aboutfood>p{
-        width: 100%;
-        text-align: center;
-
+    .afc{
+        margin-top: 0%;
+        width: 90%;
+        margin: 0px 0%;
+        margin-left: -11%;
+    }
+    .aboutfoodcaption>p{
+        font-size: 19px;
     }
     .aboutfoodphoto{
         margin-top: 35%;
@@ -931,16 +938,31 @@ border: 2px solid red;
     }
     .aboutfoodphotocontainer{
         width: 100%;
-        margin-top: 25px;
-        margin-bottom: 5px;
+        margin-top: 170px;
     }
     .most{
-        margin-top: 50px;
+        margin-top: 160px;
+        margin-left: 12%;
+        margin-bottom: 65px;
         width: 80%;
-        margin-bottom: 40px;
+        
+    }
+    .borderbox{
+        margin-left: 6%;
+        width: 80%;
+       
+    }
+    .mosta{
+        height: 80px;
+        width: 15px;
+        margin-right: 6px;
+        margin-top: -23px;
     }
     .mostb>a{
-        font-size: 32px;
+        font-size: 35px;
+    }
+    .mostb2>a{
+        font-size: 35px;
     }
     
     .aboutfoodContainer{
@@ -950,5 +972,56 @@ border: 2px solid red;
     .afc{
         text-align: center;
     }
+    .backgroundd{
+        display: block;
+        margin-top: 30px;
+        margin-left: 3.5%;
+        margin-bottom: -120px;
+    }
+    .MyaukOoPic{
+        height:180px;
+        width:96%;
+        border-radius: 10px;
+        margin-bottom: 9px;
+    }
+    .KalawPic{
+        height:180px;
+        width:96%;
+        border-radius: 10px;
+        margin-left: 2%;
+    }
+    .MyaukOo{
+        display: inline-block;
+        margin-top: -225px;
+        margin-left: -10%;
+    }
+    .Kalaw{
+        display: inline-block;
+        margin-top: -225px;
+        margin-left: -10%;
+    }
+    .oneByfive,.twoByfive,.threeByfive,.fourByfive,.fiveByfive{
+        margin-bottom: 3%;
+    }
+    .catebox{
+        margin-bottom: 0%;
+    }
+    .expmm{
+        width: 90%;
+        display: block;
+        margin-left: -16%;
+        margin-top:-20%;
 
+    }
+    .expmmh1{
+        font-size: 65px;
+    }
+    .expmmblahblah{
+        margin-left: -6%;
+        font-size: 15px;
+    }
+    .expmmlogo{
+        margin-top: -40%;
+        margin-left: -30%;
+    }
 }
