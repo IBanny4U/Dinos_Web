@@ -1,19 +1,17 @@
 body{
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
     flex-direction: column;
     background-image: url(../Image/Normal_Bg/2.png);
-   
     background-size: 100% auto;
-   
     
-   
-   
 }
-/*IBanny code*/
+
+/* IBanny code*/
 
 
-.image{
+/* .image{
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -36,7 +34,7 @@ body{
 
 .Bg4{
     background-image: url(../Image/Normal_Bg/bg4.png);
-}
+} */
 
 
 
@@ -49,8 +47,9 @@ body{
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700"); */
 
 *,::after,::before{
-  margin: 0;
-  padding: 0;
+
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   font-family: Montserrat;
   scroll-behavior: smooth;
@@ -61,12 +60,10 @@ header.active{
   }
   
 header.clr{
-    background-color: #000000;
+    background-color: black;
     box-shadow : 0 10px 12px #0005;
     
-    
   }
-  
 
 header{
     width: 100vw;
@@ -204,8 +201,9 @@ header{
 
     body{
         background: url('../Image/Normal_Bg/2.png');
-       background-size: 100%;
-       background-repeat: no repeat;
+       background-size: contain;
+       background-repeat:repeat-y;
+       margin: 0px;
     }
 
     header{
@@ -246,4 +244,5 @@ header{
         width: 70px;
         height: 65px;
     }
+    
 }
