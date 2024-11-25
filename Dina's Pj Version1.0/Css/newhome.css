@@ -51,7 +51,7 @@ body{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   scroll-behavior: smooth;
 }
 
@@ -128,7 +128,10 @@ header{
 }
 
 .naviitem a:hover{
-    color: rgb(16, 174, 87);
+    /* color: rgb(16, 174, 87); */
+    /* color: #87c19a; */
+    color:greenyellow;
+
 }
 /* Navi */
 /*
@@ -202,7 +205,7 @@ header{
     body{
         background: url('../Image/Normal_Bg/2.png');
        background-size: contain;
-       background-repeat:repeat-y;
+       /* background-repeat:repeat-y; */
        margin: 0px;
     }
 
