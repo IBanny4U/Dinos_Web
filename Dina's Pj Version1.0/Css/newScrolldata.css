@@ -100,9 +100,9 @@ body{
     
 }
 .slide img {
-   
-    width:100%;
     transition: transform 1s;
+    width:100%;
+    
 }
 
 .slide img:hover{ 
