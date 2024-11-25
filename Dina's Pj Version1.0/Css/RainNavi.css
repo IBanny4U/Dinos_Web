@@ -933,7 +933,7 @@ border: 2px solid red;
         margin-left: -15%;
     }
     .aboutfoodcaption>p{
-        font-size: 23px;
+        font-size: 20px;
     }
     .aboutfoodphoto{
         margin-top: 32%;
@@ -953,21 +953,26 @@ border: 2px solid red;
     }
     .most{
         margin-top: 160px;
-        margin-left: 12%;
+        margin-left: 9%;
         margin-bottom: 65px;
-        width: 80%;
-        
+        width: 90%;
+       
     }
     .borderbox{
         margin-left: 6%;
-        width: 80%;
+        width: 90%;
        
     }
     .mosta{
         height: 80px;
-        width: 15px;
+        width: 10px;
         margin-right: 6px;
         margin-top: -23px;
+    }
+    .a1{
+        height: 40px;
+        margin-top: -1px;
+        width: 10px;
     }
     .mostb>a{
         font-size: 35px;
