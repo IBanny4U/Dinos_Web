@@ -109,8 +109,7 @@
   .expmm{
     width: 100%;
     height: 600px;
-    margin: 10px 0%;
-    margin-top: 0px;
+    margin: 0px 0%;
     /* background-color: #331c03e0; */
     /* background-color:#26392d; */
     /* background: url(../Image/mint/bagan.jpg);
@@ -135,6 +134,7 @@
     width: 70%;
     color: #f0e5c7e7;
     opacity: 1;
+    margin-top:-25px;
     
 }
   .expmmh1{
@@ -187,6 +187,7 @@
     margin:0% 0.3%;
     margin-top:1.9%;
     overflow: hidden;
+    
   }
   .caticonbox{
     width: 100px;
@@ -195,28 +196,30 @@
    width: 260px;
    height: 260px;
    margin-bottom: -25px;
-   margin-left: -40px;
+   margin-left: -35px;
   }
   .cateicon1:hover,.cateicon2:hover,.cateicon3:hover,.cateicon4:hover,.cateicon5:hover{
    cursor: pointer;
+   transform: scale(1.2);
+   transition-duration: 1s;
   }
   .cateicon2{
     width: 270px;
     height: 270px;
-    margin-left: -60px;
+    margin-left: -55px;
     margin-bottom:-50px;
   }
   .cateicon3{
     width: 330px;
     height: 330px;
     margin-left: -80px;
-    margin-bottom:-65px;
+    margin-bottom:-60px;
   }
   .cateicon4{
     width: 270px;
     height: 270px;
-    margin-left: -65px;
-    margin-bottom:-65px;
+    margin-left: -60px;
+    margin-bottom:-60px;
   
   }
   .cateicon5{
@@ -263,18 +266,19 @@
 }
 .aboutfoodcaption p{
     color: #f0e5c7e7;
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 50px;
     padding:60px 0px;
-    padding-left: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 .aboutfoodcaption h2{
     font-size:70px;
     /* margin-bottom: 10px; */
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #f0e5c7e7;
-    margin-top: 30px;
+    margin-top: 20px;
     font-style: none;
     text-shadow:5px 5px 4px #060704;
 } 
@@ -338,7 +342,7 @@
  
 }
 .borderbox{
-    width: 450px;
+    width: 470px;
     height: 30px;
     display: flex;
     margin-left: 7%;
@@ -362,7 +366,7 @@
     align-items: center;
     text-shadow:5px 5px 4px #060704;
 }
-.mostb a{
+.mostb h3{
     text-decoration: none;
     color: inherit;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -371,7 +375,7 @@
     margin-bottom: 10px;
     margin-left: 8px;
 }
-.mostb2 a{
+.mostb2 h3{
     margin-bottom: 10px;
 }
 /* Edited enddd */
@@ -974,10 +978,10 @@ border: 2px solid red;
         margin-top: -1px;
         width: 10px;
     }
-    .mostb>a{
+    .mostb>h3{
         font-size: 35px;
     }
-    .mostb2>a{
+    .mostb2>h3{
         font-size: 35px;
     }
     
