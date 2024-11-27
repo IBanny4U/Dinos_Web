@@ -180,38 +180,40 @@ body{
 @media only screen and (max-width: 767px){
 
     .aboutus{
-        width: 100%;
+        width: 86%;
+        background: linear-gradient(rgb(0, 0, 0)0% , rgba(0, 0, 0, 0.23) 100%);;
     }
-
-    .ourmission{
+    .aboutus>h1{
+        font-size: 50px;
+    }
+    .aboutus>p{
+        font-size: 17px;
+    }
+    .container{
         display: block;
         
     }
-    .ourmission-image{
-        width: 100%;
-        margin: 0px;
-
-    }
-    .ourmission-image>img{
-        width: 100%;
-    }
-    .ourmission-p>h2{
-        text-align: center;
-        font-size: 30px;
-        margin-top: 20px;
-    }
-
-    .ourmission-p{
+    .Memberinfo,.ourvision{
         display: block;
+        width: 86%;
+        margin: 6.5%;
+        
+    }
+    .ourvision-p{
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.455) 0% ,rgba(0, 0, 0, 0.455) 100%);
+    }
+    .Memberinfo>h2,.ourvision-p>h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .Memberinfo>p,.ourvision-p>p{
+        font-size: 17px;
     }
     
-    .ourmission-p>img{
-        width: 100%;
-    }
 
-    .Memberinfo{
-        width: 100%;
-    }
 
 }
 /*NayRain Copy*/

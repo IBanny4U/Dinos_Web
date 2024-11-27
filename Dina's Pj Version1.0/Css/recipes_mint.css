@@ -314,9 +314,10 @@ h3{
 }
 h2{
     color: #f0e5c7;
+    /* font-size: 20px; */
 }
 p, pre,b{
-    text-indent: 25px;
+    text-indent: 0px;
     margin:0px 5px;
     margin-bottom: 10px;
     /* color: #3E251E; */
@@ -382,6 +383,8 @@ label{
 @media screen and (max-width:600px) {
     .Rtitle{
         margin-left: 4%;
+        font-size: 55px;
+        width: 95%;
     }
 
     .choice{
@@ -423,8 +426,9 @@ label{
     }
     .ch{
         background-image: url(../Image/mint/black-wall.jpg);
-        width: 95%;    
+        width: 90%;    
         margin: 15px 10px;
+        margin-left: 18px;
         padding: 5px 6px;
      }
     .chtag{
@@ -442,6 +446,7 @@ label{
         margin:10px 10px;
         display: block;
         border-radius: 10px 10px ;
+        padding-bottom: 15px;
     }
     .rPhoto1{
         min-width: 93%;
@@ -458,10 +463,12 @@ label{
         /* margin:2.5% 2.7%;
         margin-left: 3.3%; */
         margin-top: 0%;
+        margin-bottom:0%;
     }
     .phoneRecipe{
         display: block;
         margin:3.5% 2.7%;
+        margin-bottom: 0%;
         margin-left: 3.7%;
     }
     .lRecipe{
@@ -472,35 +479,44 @@ label{
         width: 92%;
         margin:0px 3.7%;
         border-radius: 10px;
-        padding:25px 17px;
+        padding:0px 10px;
         box-sizing: border-box;  
+       
+        
+    }
+    
+    h2{
+        font-size: 20px;
     }
     h3{
-        margin-top: 0px;
+        margin-top: 10px;
         margin-left: 0px;
-        margin-bottom: 13px;
+        margin-bottom: 10px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
+        font-size: 28px;
         color: #f0e5c7;
     }
     p ,pre,span{
             text-indent: 0px;
-            font-size: 16px;
+            font-size: 14px;
             font-family:"Poppins", sans-serif;
             width: 100%;
             text-wrap: wrap;
             color: #f0e5c7;
+            line-height: 32px;
+            margin-left: 0px;
+            margin-bottom: 0px;
     }
     label{
         font-family:Arial, Helvetica, sans-serif;
         padding: 8px 6px;
         display: inline;
-        margin-top: 10px;
+        margin-top: 14px;
         font-size: 11px;
     }
     .yout{
         font-size: 11px;
-        margin-top: 10px;
+        margin-top: 14px;
         padding: 8px 7px;
         width: 70px;
     }
