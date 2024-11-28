@@ -207,10 +207,11 @@ footer p
         margin-left: 0%;
     }
     .right2>p{
-        margin-left: -10%;
+        margin-left: -7%;
     }
     footer .right2 .menu li a{
         font-size: 0.85em;
+        margin-left: -4%;
     }
     .right>ul>li{
         margin-left:25%;
