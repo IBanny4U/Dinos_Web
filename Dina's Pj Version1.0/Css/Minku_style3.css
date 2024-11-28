@@ -189,7 +189,7 @@ footer p
        
     }
     .flogo{
-        margin-left: 26%;
+        margin-left: 23%;
         
     }
     .left{
@@ -201,6 +201,7 @@ footer p
         text-align: center;
         margin: 0px 10px;
         margin-top: 50px;
+        margin-left: -5px;
     }
     .menu{
         margin-left: 0%;
