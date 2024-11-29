@@ -71,8 +71,9 @@ body{
 }
 .psize{
     height: auto;
-    width: 300px;
+    width: 500px;
     border-radius:20px ;
+    filter: brightness(80%) saturate(80%);
 
 }
 

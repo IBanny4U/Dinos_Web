@@ -894,7 +894,7 @@ border: 2px solid red;
     .expmm{
         display: flex;
         height: 1000px;
-        margin-bottom: -150px;
+        margin-bottom: 100px;
     }
     .expmmlogo{
         display: block;
