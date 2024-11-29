@@ -8,6 +8,7 @@ footer{
     box-sizing: border-box;
     align-items: center;
     background-color: #f0e5c7;
+    filter: brightness(80%);
     /* background-color: rgb(71, 71, 71); */
     /* border-radius: 20px 20px 0px 0px; */
 

@@ -2,10 +2,16 @@
    
   
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: block;
-    border: 10PX rgb(255, 255, 255) double;
- 
+    background: url(../Image/mint/form4.jpg);
+    filter: brightness(85%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity:85% ;
+    /* border: 10PX rgb(255, 255, 255) double; */
+    
    
     
 
@@ -13,7 +19,7 @@
 .bcg_up{
     width: 100%;
     height: 50%;
-    background-color: rgb(46, 43, 43);
+    /* background-color: rgb(46, 43, 43); */
     
    
 }
@@ -24,7 +30,7 @@
     width: 100%;
     height: 50%;
     
-    background-color: #ccbfbf;
+    /* background-color: #ccbfbf; */
     
 
 
@@ -50,9 +56,10 @@
     height: 115px;
     margin: -60px 0px 0px 0px ;
     border-radius: 100%;
-    margin-left: 45%;
+    margin-left: 46%;
     display: block;
     padding-bottom: 10px;
+    margin-top: -355px;
 
       
 }
@@ -73,15 +80,18 @@
 .dinotext{
     height: 0px;
     width: 100%;;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     margin: 0px 0px 0px 0px; /*Move Text here*/
     text-align:center ;
-    font-size: 20px;
-   
-    bottom: 500px;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 3px 3px 2px black;
+    padding-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    
     
    
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
    
 
    
@@ -123,7 +133,7 @@
 .click2appear a:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to right,rgb(56, 55, 55),rgb(255, 255, 255),rgb(52, 53, 52));
+    /* background-image: linear-gradient(to right,rgb(56, 55, 55),rgb(255, 255, 255),rgb(52, 53, 52)); */
     transition:0.75s;
   
 }
@@ -218,7 +228,15 @@
     .Group4to{
         margin: -60px 0px 0px 0px ;
         margin-left: 39%;
+        margin-top: -350px;
     }
-
+    .dinotext{
+        font-size: 13px;
+    }
+    .links_container{
+        width: 70%;
+        margin:0px 12%;
+        margin-left: 16%;
+    }
 
 }
