@@ -158,3 +158,20 @@ p{
     border: 2px solid rgb(255, 255, 255);
 }
 
+footer{
+    width: 100%;
+    margin-bottom: -5%;
+}
+footer a{
+    border: none;
+    padding: inherit;
+    color: inherit;
+    font-size: inherit;
+    padding: inherit;
+    flex-grow: inherit;
+    flex-basis: inherit;
+}
+footer a:hover{
+    border: none;
+    color: inherit;
+}

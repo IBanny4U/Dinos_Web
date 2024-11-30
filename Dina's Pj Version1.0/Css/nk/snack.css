@@ -69,7 +69,22 @@ li a:hover{
     margin:0.2em auto;
     }
 }
-
+footer{
+    margin-bottom: -5%;
+}
+footer a{
+    border: none;
+    padding: inherit;
+    color: inherit;
+    font-size: inherit;
+    padding: inherit;
+    flex-grow: inherit;
+    flex-basis: inherit;
+}
+footer a:hover{
+    border: none;
+    color: inherit;
+}
 .cards{
     display: flex;
     flex-direction: column;

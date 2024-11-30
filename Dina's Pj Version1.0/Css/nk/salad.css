@@ -62,7 +62,19 @@ li a:hover{
     color: #0c0c0c;
     border: 2px solid #0c0c0c;
 }
-
+footer a{
+    border: none;
+    padding: inherit;
+    color: inherit;
+    font-size: inherit;
+    padding: inherit;
+    flex-grow: inherit;
+    flex-basis: inherit;
+}
+footer a:hover{
+    border: none;
+    color: inherit;
+}
 @media all and (max-width:30em){
     li a{
     display:block;
