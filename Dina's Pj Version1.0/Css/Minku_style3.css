@@ -1,128 +1,50 @@
 
+
+body{
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+
 footer{
     
     width: 100%;
-    height: auto;
-    padding: 30px 30px;
+    min-height: 10px;
+    height: 100px;
+    padding: 0px 50px;
+   
     justify-content: center;
-    box-sizing: border-box;
     align-items: center;
-    background-color: #f0e5c7;
-    filter: brightness(80%);
-    /* background-color: rgb(71, 71, 71); */
-    /* border-radius: 20px 20px 0px 0px; */
-
-}
-.flogolnr{
-    display:flex;
-    width: 90%;
-    margin: 20px 4.5%;
-    justify-content: space-between;
-}
-.left{
-    width: 27%;
-}
-.left>p{
-    font-size: 0.9em;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-    margin-top: 60px;
-}
-.flogo{
-    margin-top: -40px;
-    margin-bottom: -65px;
-    width: 150px;
+    flex-direction: column;
+    background-color: rgb(63, 65, 62);
+    border: 5px red;
     
 }
-.right2 p{
-    font-size: 0.9em;
-    margin-top: 5px;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    opacity:0.7;
-    margin-bottom: 20px;
-    margin-left: 50px;
-}
 
-.menu{
-    margin-bottom: 0px;
-}
-
-.menu>li{
-    list-style: none;
-    margin-top: 13px;
-    margin-left: 70px;
-}
-
-footer .right2 .menu li a
+footer> .social_icon,
+footer >.menu
 {
-    font-size: 1.05em;
-    color: #000000;
-    margin: 0 7px;
-    text-decoration: none;
-    opacity: 1;
-    font-weight: 600;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-footer .right2 .menu li a:hover{
-    opacity: 0.7;
-
-}
-.right>ul>li{
-    list-style: none;
-    margin-top: 13px;
-    margin-left:130px;
-    text-decoration:2px rgb(0, 0, 0) underline;
-    text-underline-offset: 2px;
-}
-.right>ul>p{
-    margin-top: 5px;
-    font-size: 0.9em;
-    margin-left: 90px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 20px;
-}
-.right li a{
-    color: #000000;
-    opacity: 1;
-    font-weight: 600;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-.right li a:hover{
-    list-style: none;
-    margin-top: 15px;
-    opacity: 0.6;
-}
-.social_icon>p{
-    padding-top: 34px;
-    margin-top: -20px;
-    font-size: 0.9em;
-    margin-left: -95px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.7);
-    /* text-decoration:3px rgba(172, 255, 47, 0.382) underline; */
-    text-underline-offset: 6px;
-}
- .social_icon>ul{
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    padding-top: 8px;
-    font-size: 18px;
-    
+    justify-content: center;
+    margin: 0px 0;
+    flex-wrap: wrap;
+
 }
-.social_icon>ul>li{
+
+footer> .social_icon{
+
+    padding-top: 10px;
+
+}
+footer > .social_icon> li,
+footer> .menu> li
+{
     list-style: none;
-    
 }
+
 footer .social_icon li a
 {
     font-size: 2em;
@@ -137,141 +59,31 @@ footer .social_icon li a:hover
     transform: translateY(-10px);
 }
 
-.happen li {
-    margin-top: 50px;
-    list-style:none;
-}
-.happen li a{
-    text-decoration: 2px underline;
+footer .menu li a
+{
+    font-size: 1.2em;
     color: #000000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3em;
-    text-align: center;
-    opacity: 1;
-    font-weight: 600;
-    margin-left: 38%;
-
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.60;
 }
-.happen li a:hover{
-    opacity: 0.7;
+footer .menu li a:hover{
+    opacity: 1;
+
 }
 
 footer p
 {
+    color: #000000;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 0.9em;
-    font-weight: 600;
-}
-
-.cpright{
-    background-color: rgba(0, 0, 0, 0.768);
-    height: 45px;
-    margin-bottom: -30px;
-    border-radius: 15px 15px 0px 0px;
-    padding-top: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.cpright>u{
-    color: #f0e5c7;
-}
-
-
-@media screen and (max-width:600px){
-    .footer{
-        width: 100%;
-        border-radius: 0px 15px 0px 0px;
-    }
-    .flogolnr{
-        display:block;
-        width: 80%;
-        margin: 20px 10%;
-       
-    }
-    .flogo{
-        margin-left: 23%;
-        
-    }
-    .left{
-        width: 100%;
-        margin-bottom: 25px;
-    }
-    .left p{
-       
-        text-align: center;
-        margin: 0px 10px;
-        margin-top: 50px;
-        margin-left: -5px;
-    }
-    .menu{
-        margin-left: 0%;
-    }
-    .right2>p{
-        margin-left: -7%;
-    }
-    footer .right2 .menu li a{
-        font-size: 0.85em;
-        margin-left: -4%;
-    }
-    .right>ul>li{
-        margin-left:25%;
-    }
-    .right>ul>p{
-        margin-top: 25px;
-        font-size: 0.9em;
-        margin-left: -7%;
-    }
-    .right li a{
-        font-size: 0.85em;
-    }
-
-    .social_icon>p{
-        padding-top: 50px;
-        font-size: 0.9em;
-        margin-left: -4%;
-    }
-    footer .social_icon li a
-    {
-        font-size: 2em;
-        color: #000000;
-        margin-left: -1%;
-        display: inline-block;
-        transition: 0.5s;
-    }
-    .happen li {
-        list-style:none;
-        margin-top: 20px;
-    }
-    .happen li a{
-       
-        color: #000000;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1.1em;
-        text-align: center;
-        opacity: 1;
-        font-weight: 600;
-        margin-left: 5%;
-        
-        
-    }
-    .happen li a:hover{
-        opacity: 0.7;
-    }
-
-    footer p{
-        width: 100%;
-    font-size: 0.7em; 
-    /* margin-left: -10%;
-    margin-right: -10%; */
-    margin-top: 30px;
-
-    }
+    font-size: 1.1em;
 
 }
 
-/*
- #myVideo {
+#myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -295,7 +107,7 @@ footer p
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-  } */
+  }
 /**/
 
   

@@ -4,76 +4,61 @@ body{
 .header{
     background-image: none;
 }
-.aboutusContainer{
-    margin-top: -20px;
-    padding-top: 15px;
-    background: linear-gradient(rgba(0, 0, 0, 0.326)0%,rgba(0, 0, 0, 0)100%);
-}
 .aboutus{
-    width:85%;
+    width:100%;
     justify-content: center;
     text-align: center;
     align-items: center;
     color: rgb(201, 199, 198);
-    margin: 30px 7%;
 }
 .aboutus>h1{
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 20px ;
-    color: #f0e5c7e7;
-    text-shadow:3px 3px 5px #060704;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(201, 199, 198);
 }
 .aboutus p{
-    text-shadow:3px 3px 5px #060704;
-    font-size: 20px ;
+    font-size: 18px ;
     margin-bottom: 35px;
-    color: #f0e5c7e7;
+    color: rgb(201, 199, 198);
 }
 
 .container{
-    width:85%;
+    width:90%;
     margin:auto;
     padding: auto;
-    margin-top: 70px;
+    margin-top: 20px;
 
 }
-.ourvision{
+.ourmission{
     display:flex;
     justify-content: space-between;
 }
-.ourvision-image{
+.ourmission-image{
     margin-right: 40px;
-    width: 40%;
 }
-.ourvision-image img{
+.ourmission-image img{
     height: auto;
     width: 300px;
     border-radius:20px ;
 } 
-.ourvision-p{
-    width: 50%;
-}
-.ourvision-p h2{
-    font-size: 45px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.ourmission-p h2{
+    font-size: 20px;
     margin-bottom:20px;
-    color: #f0e5c7e7;
-    text-shadow:4px 4px 2px #060704;
+    color: rgb(201, 199, 198);
+
 }
-.ourvision-p p{
-    font-size: 20px ;
-    /* text-align: left; */
-    color: #f0e5c7e7;
-    text-indent: 50px;
-    text-shadow:4px 4px 2px #060704;
+.ourmission-p p{
+    font-size: 18px ;
+    line-height: 2;
+    color: rgb(201, 199, 198);
+
     
 }
 .psize{
     height: auto;
-    width: 500px;
+    width: 300px;
     border-radius:20px ;
-    filter: brightness(80%) saturate(80%);
 
 }
 
@@ -115,9 +100,9 @@ body{
     
 }
 .slide img {
-    transition: transform 1s;
+   
     width:100%;
-    
+    transition: transform 1s;
 }
 
 .slide img:hover{ 
@@ -127,7 +112,7 @@ body{
 /* shadows in slider */
 .slider::before,
 .slider::after{
-    background:linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(255,255,255,0)100%);
+    background:linear-gradient(to right, rgb(39, 39, 39) 0%, rgba(255,255,255,0)100%);
     content: '';
     height:100%;
     position: absolute;
@@ -145,34 +130,25 @@ body{
 
 }
 /* Member info */
-.MemberInfoContainer{
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0)0% , rgb(0, 0, 0) 100%);
-}
 .Memberinfo{
-    width:85%;
-    height:auto;
+    width:100%;
+    height:40%;
+    justify-content: center;
     text-align: center;
-    margin: 0px 9%;
-    padding: 15px 3%;
     align-items: center;
-   justify-content: center;
-  
+    color: rgb(201, 199, 198);
+
 }
 .Memberinfo h2{
-    color: #f0e5c7e7;
-    text-shadow:4px 4px 2px #060704;
-    font-size: 45px;
-    margin-bottom:35px ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    font-size: 50px;
+    margin-bottom:20px ;
 }
 .Memberinfo p{
-   
-    font-size: 20px ;
+    font-size: 18px ;
     margin-bottom: 35px;
-    color: #f0e5c7e7;
-    text-shadow:4px 4px 6px #000000;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    padding: 25px;
+    line-height: 1.5;
 }
 
 
@@ -181,40 +157,38 @@ body{
 @media only screen and (max-width: 767px){
 
     .aboutus{
-        width: 86%;
-        background: linear-gradient(rgb(0, 0, 0)0% , rgba(0, 0, 0, 0.23) 100%);;
-    }
-    .aboutus>h1{
-        font-size: 50px;
-    }
-    .aboutus>p{
-        font-size: 17px;
-    }
-    .container{
-        display: block;
-        
-    }
-    .Memberinfo,.ourvision{
-        display: block;
-        width: 86%;
-        margin: 6.5%;
-        
-    }
-    .ourvision-p{
         width: 100%;
+    }
+
+    .ourmission{
         display: block;
-        margin-top: 20px;
-        background: linear-gradient(rgba(0, 0, 0, 0.455) 0% ,rgba(0, 0, 0, 0.455) 100%);
+        
     }
-    .Memberinfo>h2,.ourvision-p>h2{
-        font-size: 40px;
+    .ourmission-image{
+        width: 100%;
+        margin: 0px;
+
+    }
+    .ourmission-image>img{
+        width: 100%;
+    }
+    .ourmission-p>h2{
         text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
     }
-    .Memberinfo>p,.ourvision-p>p{
-        font-size: 17px;
+
+    .ourmission-p{
+        display: block;
     }
     
+    .ourmission-p>img{
+        width: 100%;
+    }
 
+    .Memberinfo{
+        width: 100%;
+    }
 
 }
 /*NayRain Copy*/

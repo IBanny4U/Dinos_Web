@@ -1,17 +1,34 @@
+
 body{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     flex-direction: column;
     background-image: url(../Image/Normal_Bg/2.png);
+   
     background-size: 100% auto;
+   
     
+   
+   
+}
+/*IBanny code*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
 
-/* IBanny code*/
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-
-/* .image{
+.image{
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -34,7 +51,7 @@ body{
 
 .Bg4{
     background-image: url(../Image/Normal_Bg/bg4.png);
-} */
+}
 
 
 
@@ -47,11 +64,10 @@ body{
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700"); */
 
 *,::after,::before{
-
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  /* font-family: Montserrat; */
+  font-family: Montserrat;
   scroll-behavior: smooth;
 }
 
@@ -60,10 +76,12 @@ header.active{
   }
   
 header.clr{
-    background-color: black;
+    background-color: #000000;
     box-shadow : 0 10px 12px #0005;
     
+    
   }
+  
 
 header{
     width: 100vw;
@@ -128,10 +146,7 @@ header{
 }
 
 .naviitem a:hover{
-    /* color: rgb(16, 174, 87); */
-    /* color: #87c19a; */
-    color:greenyellow;
-
+    color: rgb(16, 174, 87);
 }
 /* Navi */
 /*
@@ -204,9 +219,8 @@ header{
 
     body{
         background: url('../Image/Normal_Bg/2.png');
-       background-size: contain;
-       /* background-repeat:repeat-y; */
-       margin: 0px;
+       background-size: 100%;
+       background-repeat: no repeat;
     }
 
     header{
@@ -247,5 +261,4 @@ header{
         width: 70px;
         height: 65px;
     }
-    
 }
