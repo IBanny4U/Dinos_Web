@@ -93,7 +93,7 @@
 a {
     color: inherit;
     text-decoration: none;
-} 
+}
 /*navigation bar end */
 
 
@@ -140,7 +140,6 @@ a {
    padding: 20px;
    border: 9px ridge #0a0a0955;
 }
-
 .clickbbb{
     display: block;
     text-align: center;
@@ -158,19 +157,17 @@ a {
 .chtag a{ 
     margin: 20px;
  }
- .chtag h2{ 
+ .chtag p{ 
     display: block;
     margin-top: 17px;
     margin-left: 10px;
     width: 135px;
     height: 35px;
-    padding: 3px 8px;
+    padding: 3px 0px;
     font-size: 22px;
     color: white;
     background-color: #3E251E;
     border: 2px solid  #3E251E;
-    border-radius: 9px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
  }
 .chtag a:hover{
     
@@ -229,7 +226,7 @@ h1{
     color: #f0e5c7e7;
     font-size: 80px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 15px 38px;
+    margin: 7px 38px;
     text-shadow:5px 5px 4px #060704;
 }
 /* recipes start */
@@ -271,7 +268,6 @@ section{
     margin-left: 8px;
     object-fit: cover;
 } */
- 
 .rPhoto3{
     max-width: 450px;
     min-width: 450px;
@@ -282,12 +278,7 @@ section{
     object-fit: cover;
     image-rendering:optimizeQuality;
 }
-.phoneRecipe{
-    display: none;
- }
- .lRecipe{
-    display: block;
- }
+
 /* .rPhoto4{
     min-width: 360px;
     height: 300px;
@@ -316,15 +307,14 @@ h3{
 }
 h2{
     color: #f0e5c7;
-    /* font-size: 20px; */
 }
 p, pre,b{
-    text-indent: 0px;
+    text-indent: 25px;
     margin:0px 5px;
     margin-bottom: 10px;
     /* color: #3E251E; */
     color: #f0e5c7;
-    font-size: 20px;
+    font-size: 16px;
     font-family:"Poppins", sans-serif;;
    
 }
@@ -349,12 +339,12 @@ label{
 }
 .yout{
     width:75px;
-    color: rgba(245, 245, 245, 0.907);
+    color: rgba(245, 245, 245, 0.723);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 600;
     /* background-color: rgba(255, 0, 0, 0.663); */
-    background-color: #a21313;
+    background-color: #bf1616;
     text-decoration: none;
     padding: 9px 7px;
     padding-bottom: 1%;
@@ -383,12 +373,7 @@ label{
 
 /* Responsive */
 @media screen and (max-width:600px) {
-    .Rtitle{
-        margin-left: 4%;
-        font-size: 55px;
-        width: 95%;
-    }
-
+    
     .choice{
         width: 100%;
         display: block;
@@ -397,10 +382,11 @@ label{
         border-radius: 18px 18px 0px 0px;
     }
     .leftNright{
-        width: 96%;
+        width: 50%;
         display: flex;
         justify-content: flex-between;
-        margin-left: 2%;
+        margin-left: 16px;
+        margin-right: 18px;
         margin-top: 10px;
     }
 
@@ -428,10 +414,9 @@ label{
     }
     .ch{
         background-image: url(../Image/mint/black-wall.jpg);
-        width: 90%;    
+        width: 95%;    
         margin: 15px 10px;
-        margin-left: 18px;
-        padding: 5px 6px;
+        padding: 5px 5px;
      }
     .chtag{
         display: none;
@@ -448,7 +433,6 @@ label{
         margin:10px 10px;
         display: block;
         border-radius: 10px 10px ;
-        padding-bottom: 15px;
     }
     .rPhoto1{
         min-width: 93%;
@@ -461,74 +445,55 @@ label{
     .rPhoto3{
         min-width: 93%;
         height: 300px;
-        border-radius: 5px 5px 10px 10px;
-        /* margin:2.5% 2.7%;
-        margin-left: 3.3%; */
+        border-radius: 10px 10px 5px 5px;
+        margin:2.5% 2.7%;
+        margin-left: 3.3%;
         margin-top: 0%;
-        margin-bottom:0%;
-    }
-    .phoneRecipe{
-        display: block;
-        margin:3.5% 2.7%;
-        margin-bottom: 0%;
-        margin-left: 3.7%;
-    }
-    .lRecipe{
-        display:none;
     }
     .aside{
        
         width: 92%;
         margin:0px 3.7%;
         border-radius: 10px;
-        padding:0px 10px;
+        padding:25px 17px;
         box-sizing: border-box;  
-       padding-bottom: 10px;
-        
-    }
-    
-    h2{
-        font-size: 20px;
     }
     h3{
-        margin-top: 10px;
+        margin-top: 0px;
         margin-left: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 13px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 28px;
+        font-size: 30px;
         color: #f0e5c7;
     }
     p ,pre,span{
             text-indent: 0px;
-            font-size: 14px;
+            font-size: 16px;
             font-family:"Poppins", sans-serif;
             width: 100%;
             text-wrap: wrap;
             color: #f0e5c7;
-            line-height: 32px;
-            margin-left: 0px;
-            /* margin-bottom: 0px; */
     }
     label{
         font-family:Arial, Helvetica, sans-serif;
-        padding: 8px 6px;
+        padding: 6px 6px;
         display: inline;
-        margin-top: 14px;
-        font-size: 11px;
+        margin-top: 10px;
+        font-size: 9px;
     }
     .yout{
-        font-size: 11px;
-        margin-top: 14px;
-        padding: 8px 7px;
-        width: 70px;
-        margin-bottom: 0px;
+        font-size: 9px;
+        margin-top: 10px;
+        padding: 7px 7px;
+        width: 60px;
     }
     .upsign{
-        font-size: 20px;
-        padding: 4px 6px;
+        font-size: 16px;
+        padding: 4px 4px;
         border-radius:4px; 
-        margin-left: 2%;
-    
+        margin-left: 42%;
+        
+        
     }
 
 
@@ -732,10 +697,5 @@ label{
     .rPhoto3{
         width: 90%;
     }
-    .phoneRecipe{
-        display: inline-block;
-    }
-    .lRecipe{
-        display: none;
-    }
+    
 }

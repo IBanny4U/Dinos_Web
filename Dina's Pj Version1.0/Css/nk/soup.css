@@ -22,8 +22,8 @@ body{
 
 .text h1{
     margin: 10px 0;
-    color: #e4e4e4;
-    text-shadow: 2px 2px 8px #242424;
+    color: #dd1d1d;
+    text-shadow: 2px 2px 8px #000;
 }
 
 h2{
@@ -37,7 +37,6 @@ h2:hover{
     color: #c40f0f;
     cursor: default;
 }
-
 
 .text{
     display: flex;
@@ -61,7 +60,7 @@ li{
     flex-wrap: wrap;
 }
 
-.all{
+.dessert{
     background-color: #d83535;
     color: #000;
     border-color: rgb(161, 161, 161);
@@ -151,7 +150,6 @@ li a:hover{
     flex-direction: row;
     justify-content: center;
 }
-
 
 
 .card_text h2{
