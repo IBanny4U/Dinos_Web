@@ -899,10 +899,10 @@ border: 2px solid red;
     }
     .expmmlogo{
         display: block;
-        width: 400px;
-        height: 400px;
-        
-       
+        width: 380px;
+        height: 380px;
+        margin-top: -35%;
+        margin-left: -28%;
     }
     .expmmtext{
 
@@ -948,13 +948,15 @@ border: 2px solid red;
         
     }
     .aboutfoodphoto>img{
-        width: 89%;
-        height: 33%;
-        margin-left: 22px;
+        /* width: 89%;
+        height: 33%; */
+        width: 350px;
+        height: 350px;
+        margin:0px 8%;
     }
     .aboutfoodphotocontainer{
         width: 100%;
-        margin-top: 170px;
+        margin-top: 110px;
     }
     .most{
         margin-top: 10px;
@@ -1025,7 +1027,7 @@ border: 2px solid red;
         margin-bottom: 3%;
     }
     .catebox{
-        margin-top: -60%;
+        margin-top: -67%;
        
        
     }
@@ -1044,10 +1046,6 @@ border: 2px solid red;
         margin-left: -6%;
         font-size: 15px;
     }
-    .expmmlogo{
-        margin-top: -40%;
-        margin-left: -30%;
-    }
     .URF{
         margin-bottom: 20%;
     }
@@ -1056,6 +1054,25 @@ border: 2px solid red;
         font-size: 27px;
     }
     
+}
+
+@media screen and (max-width:360px ){
+    .aboutfoodphoto>img{
+        /* width: 89%;
+        height: 33%; */
+        width: 300px;
+        height: 300px;
+        margin:0px 8%;
+        margin-bottom: -100px;
+    }
+    .aboutfoodphotocontainer{
+        width: 100%;
+        margin-top: 90px;
+        
+    }
+    .most{
+        margin-top: -100px;
+    }
 }
 
 
@@ -1073,7 +1090,7 @@ border: 2px solid red;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 370px;
     background: white;
     border-radius: 10px;
     box-shadow: 5px 4px 6px rgba(0,0,0,0.05);
@@ -1093,7 +1110,7 @@ border: 2px solid red;
   /* #adadad */
   form .txt_field{
     position: relative;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 30px 0;
   }
@@ -1111,7 +1128,7 @@ border: 2px solid red;
     position: absolute;
     top: 50%;
     left: 5px;
-    color: black;
+    color: rgba(0, 0, 0, 0.508);
     transform: translateY(-50%);
     font-size: 20px;
     pointer-events: none;
@@ -1153,7 +1170,7 @@ border: 2px solid red;
     background: #2691d9;
     border-radius: 25px;
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.797);
+    color: rgba(0, 0, 0, 0.697);
     font-weight: 700;
     cursor: pointer;
     outline: none;

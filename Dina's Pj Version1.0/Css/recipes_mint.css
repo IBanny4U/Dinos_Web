@@ -158,17 +158,19 @@ a {
 .chtag a{ 
     margin: 20px;
  }
- .chtag p{ 
+ .chtag h2{ 
     display: block;
     margin-top: 17px;
     margin-left: 10px;
     width: 135px;
     height: 35px;
-    padding: 3px 0px;
+    padding: 3px 8px;
     font-size: 22px;
     color: white;
     background-color: #3E251E;
     border: 2px solid  #3E251E;
+    border-radius: 9px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
  }
 .chtag a:hover{
     
