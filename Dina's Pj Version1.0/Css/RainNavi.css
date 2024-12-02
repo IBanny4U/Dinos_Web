@@ -1076,6 +1076,7 @@ border: 2px solid red;
         margin-top: -70px;
     }
     .backgroundd{
+<<<<<<< HEAD
         margin-bottom: 120px;
     }
     .borderbox{
@@ -1089,6 +1090,10 @@ border: 2px solid red;
         width: 11px;
     }
 
+=======
+        margin-bottom: 100px;
+    }
+>>>>>>> 20ea435 (bugs 7)
 }
 
 
