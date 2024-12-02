@@ -999,7 +999,7 @@ border: 2px solid red;
         display: block;
         margin-top: 30px;
         margin-left: 3.5%;
-        margin-bottom: -10px;
+        margin-bottom: 50px;
     }
     .MyaukOoPic{
         height:180px;
@@ -1072,6 +1072,9 @@ border: 2px solid red;
     }
     .most{
         margin-top: -100px;
+    }
+    .backgroundd{
+        margin-bottom: 100px;
     }
 }
 
