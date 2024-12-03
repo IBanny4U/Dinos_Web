@@ -120,6 +120,7 @@
     padding: 0px 0px;
     padding-top: 0px;
     padding-left: 90px;
+    margin-top: 60px;
 }
   .expmmlogo{
     width:600px;
@@ -1063,7 +1064,7 @@ border: 2px solid red;
         width: 300px;
         height: 300px;
         margin:0px 8%;
-        margin-bottom: -100px;
+        margin-bottom: 0px;
     }
     .aboutfoodphotocontainer{
         width: 100%;
@@ -1071,8 +1072,22 @@ border: 2px solid red;
         
     }
     .most{
-        margin-top: -100px;
+        margin-top: -70px;
     }
+    .backgroundd{
+        margin-bottom: 120px;
+    }
+    .borderbox{
+        width: 340px;
+        height: 30px;
+        display: flex;
+        margin-left: 10%;
+           
+    }
+    .borderbox>.mosta{
+        width: 11px;
+    }
+
 }
 
 
