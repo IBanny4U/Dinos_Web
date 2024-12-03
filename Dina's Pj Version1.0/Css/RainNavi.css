@@ -963,7 +963,7 @@ border: 2px solid red;
         margin-top: 10px;
         margin-left: 13%;
         margin-bottom: 65px;
-        width: 85%;
+        width: 80%;
        
     }
     .borderbox{
@@ -1073,6 +1073,7 @@ border: 2px solid red;
     }
     .most{
         margin-top: -70px;
+        width: 80%;
     }
     .backgroundd{
         margin-bottom: 120px;
