@@ -1089,11 +1089,14 @@ border: 2px solid red;
     .borderbox>.mosta{
         width: 11px;
     }
+<<<<<<< HEAD
 
 =======
         margin-bottom: 100px;
     }
 >>>>>>> 20ea435 (bugs 7)
+=======
+>>>>>>> ccab949d3bd21db54219dae93fc57faeb36dcd31
 }
 
 
