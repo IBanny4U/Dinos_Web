@@ -20,11 +20,30 @@ body{
     gap: 20px;
 }
 
+.text h1{
+    margin: 10px 0;
+    color: #dd1d1d;
+    text-shadow: 2px 2px 8px #000;
+}
+
+h2{
+    color: #cccccc;
+    margin: 10px 0;
+    font-size: 18px;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+h2:hover{
+    color: #c40f0f;
+    cursor: default;
+}
+
 .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 
@@ -43,15 +62,15 @@ li{
 
 .salad{
     background-color: #d83535;
-    color: #fcfcfc;
-    border-color: rgb(27, 27, 27);
+    color: #000;
+    border-color: rgb(161, 161, 161);
 }
 
 li a{
     text-decoration: none;
-    color: rgb(105, 105, 105);
-
-    border: 2px solid rgb(87, 87, 87);
+    color: rgb(211, 211, 211);
+    background-color: #000;
+    border: 2px solid rgb(202, 202, 202);
     padding: 10px 20px;
     border-radius: 20px;
     flex-grow: 2;
@@ -59,28 +78,18 @@ li a{
 }
 
 li a:hover{
-    color: #0c0c0c;
-    border: 2px solid #0c0c0c;
+    color: #a3a3a3;
+    border: 2px solid #b9b9b9;
 }
-footer a{
-    border: none;
-    padding: inherit;
-    color: inherit;
-    font-size: inherit;
-    padding: inherit;
-    flex-grow: inherit;
-    flex-basis: inherit;
-}
-footer a:hover{
-    border: none;
-    color: inherit;
-}
+
 @media all and (max-width:30em){
     li a{
     display:block;
     margin:0.2em auto;
     }
 }
+
+
 
 .cards{
     display: flex;
@@ -110,6 +119,7 @@ footer a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
     margin: 20px;
     padding: 10px;
     /* flex-wrap: wrap; */
@@ -117,7 +127,7 @@ footer a:hover{
     flex-basis: 200; */
 
     width: 200px;
-    height: auto;
+    height: 300px;
 
     border: 2px solid rgb(29, 29, 29);
     border-radius: 20px;
@@ -142,17 +152,33 @@ footer a:hover{
 }
 
 p{
-    color: rgb(34, 34, 34);
+    color: rgb(219, 219, 219);
+    margin: 10px 0;
+    font-size: large;
+    text-shadow: 2px 2px 8px #000;
 }
 
 .card_text h2{
     color: #cccccc;
+    font-size: 1rem;
 }
 .img{
-    width: 90%;
-    height: 70%;
+    width: 170px;
+    height: 170px;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid #3a3a3a; */
+    /* border-radius: 20px; */
+    justify-content: center;
     /* background-color: black; */
+}
+
+.img img{
+    border-radius: 10px;
+    border: 2px solid #222222;
+    object-fit: cover;
 }
 
 .card_btn {
@@ -170,3 +196,13 @@ p{
     border: 2px solid rgb(255, 255, 255);
 }
 
+.card_link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover{
+    scale: 1.05;
+}

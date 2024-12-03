@@ -11,10 +11,7 @@ body{
     width: 100%;
     height: auto;
 }
-footer a{
-    border: none;
-    padding: inherit;
-}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -23,11 +20,31 @@ footer a{
     gap: 20px;
 }
 
+.text h1{
+    margin: 10px 0;
+    color: #e4e4e4;
+    text-shadow: 2px 2px 8px #242424;
+}
+
+h2{
+    color: #cccccc;
+    margin: 10px 0;
+    font-size: 18px;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+h2:hover{
+    color: #c40f0f;
+    cursor: default;
+}
+
+
 .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 
@@ -46,15 +63,15 @@ li{
 
 .all{
     background-color: #d83535;
-    color: #fcfcfc;
-    border-color: rgb(27, 27, 27);
+    color: #000;
+    border-color: rgb(161, 161, 161);
 }
 
 li a{
     text-decoration: none;
-    color: rgb(105, 105, 105);
-
-    border: 2px solid rgb(87, 87, 87);
+    color: rgb(211, 211, 211);
+    background-color: #000;
+    border: 2px solid rgb(202, 202, 202);
     padding: 10px 20px;
     border-radius: 20px;
     flex-grow: 2;
@@ -62,8 +79,8 @@ li a{
 }
 
 li a:hover{
-    color: #0c0c0c;
-    border: 2px solid #0c0c0c;
+    color: #a3a3a3;
+    border: 2px solid #b9b9b9;
 }
 
 @media all and (max-width:30em){
@@ -103,6 +120,7 @@ li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
     margin: 20px;
     padding: 10px;
     /* flex-wrap: wrap; */
@@ -134,9 +152,7 @@ li a:hover{
     justify-content: center;
 }
 
-p{
-    color: rgb(34, 34, 34);
-}
+
 
 .card_text h2{
     color: #cccccc;
@@ -158,7 +174,7 @@ p{
 .img img{
     border-radius: 10px;
     border: 2px solid #222222;
-
+    object-fit: cover;
 }
 
 .card_btn {
@@ -181,5 +197,9 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.card:hover{
+    scale: 1.05;
 }
 
