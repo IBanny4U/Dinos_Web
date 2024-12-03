@@ -88,10 +88,14 @@ footer li a {
     text-decoration: inherit;
     color: inherit;
     padding: inherit;
+    
 }
 footer li a:hover{
     color: inherit;
     border: inherit;
+}
+footer p{
+    text-shadow: inherit;
 }
 
 

@@ -93,7 +93,10 @@ footer li a:hover{
     color: inherit;
     border: inherit;
 }
-
+footer{
+    margin-bottom: -30px;
+    width: 100%;
+}
 
 @media all and (max-width:30em){
     li a{
